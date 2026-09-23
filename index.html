@@ -82,6 +82,7 @@ h3.sub{font:600 15px var(--display);letter-spacing:.08em;text-transform:uppercas
 .tag.plug{background:var(--plug-bg);color:var(--plug)}
 .head-row{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-block:8px;border-bottom:1px solid var(--rule)}
 .head-row .v{text-align:right}
+.head-row .ds{color:inherit}
 .hint{font-size:12.5px;color:var(--muted);min-height:1em}
 .empty{padding:40px 0;color:var(--muted);text-align:center}
 footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--rule);font-size:13px;color:var(--muted);display:grid;gap:6px}
@@ -89,13 +90,46 @@ footer a{color:var(--accent)}
 .plugmeta{font-size:14px;color:var(--muted);margin:4px 0 0}
 .plugmeta a{color:var(--plug)}
 
-@media (max-width:760px){
-  .dev{grid-template-columns:1fr auto;gap:2px 12px}
+/* Toggles row: group the checkboxes so they wrap as one unit */
+.toggles{display:flex;flex-wrap:wrap;gap:6px 16px}
+.chip{min-height:34px}
+
+/* Tablet: name | modeled on | added, description full width underneath */
+@media (max-width:1024px){
+  .wrap{padding-inline:16px}
+  .dev{grid-template-columns:minmax(0,1fr) minmax(0,1fr) 44px;gap:2px 14px;padding-block:8px}
+  .dev .ds{grid-column:1 / -1}
+  .dev .v{grid-row:1;grid-column:3}
+  .head-row .ds{display:none}
+}
+
+/* Phone: stacked rows, slimmer sticky bar */
+@media (max-width:640px){
+  body{font-size:14.5px}
+  header.top{padding-block:16px 8px;gap:8px}
+  .lede{font-size:14px}
+  .stats{gap:4px 14px;font-size:12px}
+  .bar{padding-block:8px;gap:8px}
+  #q{font-size:16px;padding:9px 11px;flex-basis:100%} /* 16px stops iOS zooming on focus */
+  .toggles{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;gap:14px;width:100%}
+  .toggles::-webkit-scrollbar{display:none}
+  .toggle{flex:none;font-size:13px;min-height:28px}
+  .toggle input{width:18px;height:18px}
+  .chips{scrollbar-width:none;margin-inline:-16px;padding-inline:16px;scroll-padding-inline:16px}
+  .chips::-webkit-scrollbar{display:none}
+  .hint{display:none}
+  .dev{grid-template-columns:minmax(0,1fr) auto;gap:3px 12px;padding-block:10px}
   .dev .nm{grid-column:1}
   .dev .v{grid-column:2;grid-row:1}
   .dev .bo,.dev .ds{grid-column:1 / -1}
+  .dev .bo{font-size:13px}
+  .dev .ds{font-size:13.5px}
   .head-row{display:none}
-  section.cat{scroll-margin-top:170px}
+  .cat-head h2{font-size:26px}
+  .cat-head p{font-size:13px}
+  .guide summary{font-size:16px;padding-block:2px}
+  .guide dl{font-size:13px}
+  footer{margin-top:36px;font-size:12px}
 }
 @media (prefers-reduced-motion:no-preference){ html{scroll-behavior:smooth} }
 </style>
@@ -114,9 +148,11 @@ footer a{color:var(--accent)}
   <div class="bar">
     <div class="row">
       <input id="q" type="search" placeholder="Search names, gear, uses (e.g. Klon, JCM800, shimmer, bass)" aria-label="Search devices" autocomplete="off">
-      <label class="toggle"><input type="checkbox" id="onlyNew"> New in 4.1.0 only</label>
-      <label class="toggle"><input type="checkbox" id="showPlug" checked> Plugin devices</label>
-      <label class="toggle"><input type="checkbox" id="showCap" checked> Factory captures</label>
+      <div class="toggles">
+        <label class="toggle"><input type="checkbox" id="onlyNew"> New in 4.1.0 only</label>
+        <label class="toggle"><input type="checkbox" id="showPlug" checked> Plugin devices</label>
+        <label class="toggle"><input type="checkbox" id="showCap" checked> Factory captures</label>
+      </div>
     </div>
     <div class="chips" id="chips" role="tablist" aria-label="Category"></div>
     <div class="hint" id="hint"></div>
@@ -200,7 +236,7 @@ function row(d){
   const prev = d.prev ? ` <em>Formerly “${esc(d.prev)}”.</em>` : "";
   return `<div class="dev"><div class="nm">${esc(d.name)} ${tags}</div>${bo}<div class="ds">${esc(d.desc)}${prev}</div><div class="v">${esc(d.added)}</div></div>`;
 }
-const HEAD = `<div class="dev head-row"><div>Device</div><div>Modeled on</div><div>What it's for</div><div class="v">Added</div></div>`;
+const HEAD = `<div class="dev head-row"><div>Device</div><div>Modeled on</div><div class="ds">What it's for</div><div class="v">Added</div></div>`;
 
 function render(){
   const q = $("#q").value.trim().toLowerCase();
@@ -226,6 +262,8 @@ function render(){
     total += n;
     html += `<section class="cat" id="${s.id}" style="--c:var(${s.color})"><div class="cat-head"><h2>${esc(s.title)}</h2><span class="n">${n} device${n>1?"s":""}</span><p>${esc(s.blurb)}</p></div>${body}</section>`;
   }
+  const cur = document.querySelector('.chip[aria-selected="true"]');
+  if (cur) { const s = $("#chips"); const l = cur.offsetLeft - s.offsetLeft; if (l < s.scrollLeft || l + cur.offsetWidth > s.scrollLeft + s.clientWidth) s.scrollLeft = l - 16; }
   $("#hint").textContent = searching ? `Showing ${total} match${total===1?"":"es"} across all categories. Pick a tab to clear the search.` : "Showing one category at a time. Search to look across all of them.";
   $("#out").innerHTML = html || `<div class="empty">No devices match “${esc(q)}”. Try a brand (Marshall), a pedal (Tube Screamer) or a use (ambient).</div>`;
 }
