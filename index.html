@@ -4,32 +4,44 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Quad Cortex Block Atlas</title>
+<meta name="color-scheme" content="light dark">
+<script>try{const t=localStorage.getItem("qc-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 :root{
-  --ground:#ECEEEA; --surface:#FAFBF8; --surface-2:#E2E5E0; --ink:#1A1D21; --muted:#5B6168; --rule:#D3D7D1;
-  --accent:#0B7A83; --accent-ink:#FFFFFF; --new:#C2410C; --new-bg:#FCE9DE; --plug:#6D4AA8; --plug-bg:#EEE7F8;
-  --c-amp:#C2410C; --c-cab:#8A6D3B; --c-drive:#B91C1C; --c-dyn:#0B7A83; --c-mod:#4F46E5; --c-time:#0369A1; --c-pitch:#A21CAF; --c-util:#52606D; --c-cap:#15803D;
+  color-scheme:light dark;
+  /* Every color is declared once. The switch only flips color-scheme. */
+  --ground:light-dark(#ECEEEA,#121416);
+  --surface:light-dark(#FAFBF8,#1A1D20);
+  --surface-2:light-dark(#E2E5E0,#24282C);
+  --ink:light-dark(#1A1D21,#E6E8E4);
+  --muted:light-dark(#5B6168,#9AA1A8);
+  --rule:light-dark(#D3D7D1,#2F3438);
+
+  --accent:light-dark(#0B7A83,#3FB8C1);
+  --accent-ink:light-dark(#FFFFFF,#0B1214);
+  --new:light-dark(#C2410C,#FB923C);
+  --new-bg:light-dark(#FCE9DE,#3A2114);
+  --plug:light-dark(#6D4AA8,#B69CF0);
+  --plug-bg:light-dark(#EEE7F8,#2A2238);
+
+  --c-amp:light-dark(#C2410C,#FB923C);
+  --c-cab:light-dark(#8A6D3B,#D4B07A);
+  --c-drive:light-dark(#B91C1C,#F87171);
+  --c-dyn:light-dark(#0B7A83,#3FB8C1);
+  --c-mod:light-dark(#4F46E5,#A5B4FC);
+  --c-time:light-dark(#0369A1,#7DD3FC);
+  --c-pitch:light-dark(#A21CAF,#F0ABFC);
+  --c-util:light-dark(#52606D,#A3B1BE);
+  --c-cap:light-dark(#15803D,#4ADE80);
   --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
   --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    color-scheme:dark;
-    --ground:#121416; --surface:#1A1D20; --surface-2:#24282C; --ink:#E6E8E4; --muted:#9AA1A8; --rule:#2F3438;
-    --accent:#3FB8C1; --accent-ink:#0B1214; --new:#FB923C; --new-bg:#3A2114; --plug:#B69CF0; --plug-bg:#2A2238;
-    --c-amp:#FB923C; --c-cab:#D4B07A; --c-drive:#F87171; --c-dyn:#3FB8C1; --c-mod:#A5B4FC; --c-time:#7DD3FC; --c-pitch:#F0ABFC; --c-util:#A3B1BE; --c-cap:#4ADE80;
-  }
-}
-:root[data-theme="dark"]{
-  color-scheme:dark;
-  --ground:#121416; --surface:#1A1D20; --surface-2:#24282C; --ink:#E6E8E4; --muted:#9AA1A8; --rule:#2F3438;
-  --accent:#3FB8C1; --accent-ink:#0B1214; --new:#FB923C; --new-bg:#3A2114; --plug:#B69CF0; --plug-bg:#2A2238;
-  --c-amp:#FB923C; --c-cab:#D4B07A; --c-drive:#F87171; --c-dyn:#3FB8C1; --c-mod:#A5B4FC; --c-time:#7DD3FC; --c-pitch:#F0ABFC; --c-util:#A3B1BE; --c-cap:#4ADE80;
-}
+:root[data-theme="light"]{color-scheme:light}
+:root[data-theme="dark"]{color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--ground);color:var(--ink);font:15px/1.55 var(--body);margin:0}
 .wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:0 64px}
@@ -131,7 +143,30 @@ footer a{color:var(--accent)}
   .guide dl{font-size:13px}
   footer{margin-top:36px;font-size:12px}
 }
-@media (prefers-reduced-motion:no-preference){ html{scroll-behavior:smooth} }
+/* Theme switch: a role=switch button; all visual state hangs off aria-checked */
+.top-row{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.theme{
+  --w:56px; --h:30px; --pad:3px; --knob:calc(var(--h) - 2*var(--pad) - 2px);
+  position:relative;flex:none;inline-size:var(--w);block-size:var(--h);padding:0;
+  display:grid;grid-template-columns:1fr 1fr;place-items:center;
+  border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--muted);cursor:pointer;
+}
+.theme:hover{border-color:color-mix(in oklab,var(--accent) 55%,var(--rule))}
+.theme svg{position:relative;z-index:1;inline-size:15px;block-size:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.theme .moon{fill:currentColor;stroke:none}
+.theme .thumb{position:absolute;inset-block-start:var(--pad);inset-inline-start:var(--pad);inline-size:var(--knob);block-size:var(--knob);border-radius:50%;background:var(--ink);box-shadow:0 1px 2px rgb(0 0 0 / .25)}
+.theme[aria-checked="true"] .thumb{translate:calc(var(--w) - var(--knob) - 2*var(--pad) - 2px) 0}
+.theme[aria-checked="false"] .sun,.theme[aria-checked="true"] .moon{color:var(--ground)}
+@media (forced-colors:active){ .theme .thumb{background:CanvasText} .theme[aria-checked="false"] .sun,.theme[aria-checked="true"] .moon{color:Canvas} }
+
+/* Circular reveal: JS drives the clip-path; here we just switch off the default crossfade */
+::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}
+
+@media (prefers-reduced-motion:no-preference){
+  html{scroll-behavior:smooth}
+  .theme .thumb{transition:translate .32s cubic-bezier(.34,1.4,.5,1)}
+  .theme svg{transition:color .2s}
+}
 </style>
 </head>
 <body>
@@ -139,7 +174,14 @@ footer a{color:var(--accent)}
 
 <div class="wrap">
   <header class="top">
-    <div class="eyebrow">Quad Cortex &amp; Quad Cortex mini · CorOS 4.1.0 · released 25 Aug 2026</div>
+    <div class="top-row">
+      <div class="eyebrow">Quad Cortex &amp; Quad Cortex mini · CorOS 4.1.0 · released 25 Aug 2026</div>
+      <button class="theme" id="theme" type="button" role="switch" aria-checked="false" aria-label="Dark mode" title="Toggle dark mode">
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7Z"/></svg>
+        <span class="thumb" aria-hidden="true"></span>
+      </button>
+    </div>
     <h1>Quad Cortex <span class="fw">Block Atlas</span></h1>
     <p class="lede">Every virtual device you can drop into a block on the grid, with <b>the real gear it's modeled on</b> and <b>what it's good for</b>. The mini runs the same CorOS and the same device library as the full-size Quad Cortex.</p>
     <div class="stats" id="stats"></div>
@@ -201,6 +243,30 @@ const PREFIXES = [
   ["Zila","Zilla"],["Range","Orange"],["ENG","ENGL"],["MX","MXR"],["Exotic","Xotic"],["Love","Lovepedal"],["Legendary 87","UA 1176"]
 ];
 const $ = s => document.querySelector(s);
+
+// Theme. With no saved choice, follow the OS live; once clicked, the choice sticks (localStorage).
+{
+  const root = document.documentElement, sw = $("#theme");
+  const osDark = matchMedia("(prefers-color-scheme: dark)");
+  const calm = matchMedia("(prefers-reduced-motion: reduce)");
+  const isDark = () => (root.dataset.theme ?? (osDark.matches ? "dark" : "light")) === "dark";
+  const sync = () => sw.setAttribute("aria-checked", String(isDark()));
+  osDark.addEventListener("change", () => { if (!root.dataset.theme) sync(); });
+  sw.addEventListener("click", () => {
+    const next = isDark() ? "light" : "dark";
+    try { localStorage.setItem("qc-theme", next); } catch (e) {}
+    const apply = () => { root.dataset.theme = next; sync(); };
+    if (!document.startViewTransition || calm.matches) return apply();
+    const r = sw.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2;
+    const end = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
+    document.startViewTransition(apply).ready.then(() => root.animate(
+      { clipPath: [`circle(0 at ${x}px ${y}px)`, `circle(${end}px at ${x}px ${y}px)`] },
+      { duration: 480, easing: "cubic-bezier(.2,.7,.2,1)", pseudoElement: "::view-transition-new(root)" }
+    ));
+  });
+  sync();
+}
+
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 $("#prefixes").innerHTML = PREFIXES.map(([a,b]) => `<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join("");
 
