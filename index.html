@@ -50,8 +50,11 @@
 
 @layer base {
   *{box-sizing:border-box}
+  [hidden]{display:none !important} /* the hidden attribute must beat any component's display */
   body{background:var(--ground);color:var(--ink);font:15px/1.55 var(--body);margin:0}
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  /* Read by screen readers, invisible on screen */
+  .sr-only{position:absolute;inline-size:1px;block-size:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
   @media (max-width:640px){ body{font-size:14.5px} }
 }
 
@@ -65,6 +68,9 @@
   .toggles{display:flex;flex-wrap:wrap;gap:6px 16px}
   .guide{display:grid;grid-template-columns:1fr;align-items:start;gap:6px;margin-block:12px 0}
   section.cat{margin-block-start:20px;scroll-margin-block-start:130px}
+  /* Skip-link target: land below the sticky bar, and don't draw a ring around the whole list */
+  main{scroll-margin-block-start:170px}
+  main:focus{outline:none}
   footer{margin-block-start:56px;padding-block-start:16px;border-block-start:1px solid var(--rule);font-size:13px;color:var(--muted);display:grid;gap:6px}
 
   @media (max-width:1024px){ .wrap{padding-inline:16px} }
@@ -109,13 +115,13 @@
   .chip .dot{inline-size:8px;block-size:8px;border-radius:50%;background:var(--c)}
   .chip small{font:500 11px var(--mono);opacity:.7;letter-spacing:0}
   @media (hover:hover){
-    .chip:not([aria-selected="true"]):hover{background:color-mix(in oklab,var(--c) 8%,var(--surface));border-color:color-mix(in oklab,var(--c) 40%,var(--rule))}
+    .chip:not([aria-pressed="true"]):hover{background:color-mix(in oklab,var(--c) 8%,var(--surface));border-color:color-mix(in oklab,var(--c) 40%,var(--rule))}
   }
   /* The selected highlight is its own layer, not the chip's background, so a view
      transition can move it from one chip to the next. It's translucent because
      mid-transition it's drawn above the labels. */
   .chip .pill{display:none;position:absolute;inset:-1px;z-index:-1;border-radius:inherit;border:1px solid var(--c);background:color-mix(in oklab,var(--c) 18%,transparent)}
-  .chip[aria-selected="true"] .pill{display:block}
+  .chip[aria-pressed="true"] .pill{display:block}
 
   /* Guide accordions */
   .guide details{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding-block:8px;padding-inline:14px}
@@ -174,7 +180,26 @@
   .tag.new{--tone:var(--new)}
   .tag.plug{--tone:var(--plug)}
 
-  .empty{padding-block:40px;color:var(--muted);text-align:center}
+  /* First thing a keyboard user reaches; parked off-screen until focused */
+  .skip{position:absolute;inset-inline-start:16px;inset-block-start:-100px;z-index:10;padding:10px 14px;border-radius:6px;background:var(--ink);color:var(--ground);font-weight:600;text-decoration:none}
+  .skip:focus-visible{inset-block-start:8px}
+
+  .empty{padding-block:40px;color:var(--muted);text-align:center;display:grid;justify-items:center;gap:10px}
+  .empty p{margin:0;max-inline-size:60ch}
+  .empty .why{color:var(--ink)}
+  .clear{
+    margin-block-start:6px;cursor:pointer;
+    font:600 14px/1 var(--display);letter-spacing:.06em;text-transform:uppercase;
+    color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:10px 16px;
+  }
+  @media (hover:hover){ .clear:hover{border-color:color-mix(in oklab,var(--accent) 55%,var(--rule));background:color-mix(in oklab,var(--accent) 8%,var(--surface))} }
+
+  /* Windows High Contrast / forced colors: the UI swaps every background for the
+     system Canvas, so anything that relied on a tint needs a border or a system color. */
+  @media (forced-colors:active){
+    .chip .pill{forced-color-adjust:none;background:none;border:2px solid Highlight}
+    .tag{border:1px solid CanvasText}
+  }
   footer a{color:var(--accent)}
 
   /* Theme switch: a role=switch button; all visual state hangs off aria-checked */
@@ -219,7 +244,7 @@
   /* Tab: the highlight glides to the new chip while the list crossfades. The pill is
      only named during a tab transition, so it can't pop out above the theme reveal. */
   :root:active-view-transition-type(tab){
-    .chip[aria-selected="true"] .pill{view-transition-name:active-chip}
+    .chip[aria-pressed="true"] .pill{view-transition-name:active-chip}
     &::view-transition-group(active-chip){animation-duration:.26s;animation-timing-function:cubic-bezier(.2,.7,.2,1)}
     &::view-transition-old(root),&::view-transition-new(root){animation-duration:.15s}
   }
@@ -244,6 +269,7 @@
 <body>
 
 
+<a class="skip" href="#out">Skip to devices</a>
 <div class="wrap">
   <header class="top">
     <div class="top-row">
@@ -268,7 +294,7 @@
         <label class="toggle"><input type="checkbox" id="showCap" checked> Factory captures</label>
       </div>
     </div>
-    <div class="chips" id="chips" role="tablist" aria-label="Category"></div>
+    <div class="chips" id="chips" role="group" aria-label="Category"></div>
     <div class="hint" id="hint"></div>
   </div>
 
@@ -298,7 +324,8 @@
     </details>
   </div>
 
-  <main id="out"></main>
+  <main id="out" tabindex="-1"></main>
+  <div id="status" class="sr-only" role="status"></div>
 
   <footer>
     <div>Device names, "based on" credits and the CorOS version each device was added in come from Neural DSP's official <a href="https://neuraldsp.com/device-list" target="_blank" rel="noopener">device list</a> and the <a href="https://neuraldsp.com/quad-cortex-updates/coros-and-cortex-control-4-1-0-are-now-available" target="_blank" rel="noopener">CorOS 4.1.0 release notes</a>, both checked on 23 Sep 2026. The usage descriptions are editorial.</div>
@@ -357,12 +384,12 @@ $("#stats").innerHTML = [
   [count(d => d.isNew), "new in 4.1.0"]
 ].map(([n, l]) => `<span><strong>${n}</strong> ${l}</span>`).join("");
 
-// Tabs
+// Category chips: toggle buttons (aria-pressed), one pressed at a time, none while searching
 let active = "amps";
 try { active = localStorage.getItem("qc-tab") || active; } catch (e) {}
 if (!DATA.sections.some(s => s.id === active)) active = "amps";
 $("#chips").innerHTML = DATA.sections.map(s =>
-  `<button class="chip" type="button" role="tab" id="tab-${s.id}" data-target="${s.id}" style="--c:var(${s.color})"><span class="pill" aria-hidden="true"></span><span class="dot"></span>${esc(s.title)} <small id="cc-${s.id}"></small></button>`
+  `<button class="chip" type="button" aria-pressed="false" id="chip-${s.id}" data-target="${s.id}" style="--c:var(${s.color})"><span class="pill" aria-hidden="true"></span><span class="dot"></span>${esc(s.title)} <small id="cc-${s.id}"></small></button>`
 ).join("");
 $("#chips").addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b) return;
@@ -384,7 +411,7 @@ function row(d){
 }
 const HEAD = `<div class="dev head-row"><div>Device</div><div>Modeled on</div><div class="ds">What it's for</div><div class="v">Added</div></div>`;
 
-function render(){
+function render({ announce = true } = {}){
   const q = $("#q").value.trim().toLowerCase();
   const terms = q.split(/\s+/).filter(Boolean);
   const onlyNew = $("#onlyNew").checked, showPlug = $("#showPlug").checked, showCap = $("#showCap").checked;
@@ -400,23 +427,54 @@ function render(){
       n += items.length;
       body += (g.title ? `<h3 class="sub">${esc(g.title)}</h3>` : "") + (g.meta ? `<p class="plugmeta">${g.meta}</p>` : "") + `<div class="list">${HEAD}${items.map(row).join("")}</div>`;
     }
-    const tab = document.getElementById("tab-" + s.id);
+    const chip = document.getElementById("chip-" + s.id);
     document.getElementById("cc-" + s.id).textContent = n;
-    tab.hidden = n === 0;
-    tab.setAttribute("aria-selected", String(!searching && s.id === active));
+    chip.hidden = n === 0;
+    chip.setAttribute("aria-pressed", String(!searching && s.id === active));
     if (!n || (!searching && s.id !== active)) continue;
     total += n;
     html += `<section class="cat" id="${s.id}" style="--c:var(${s.color})"><div class="cat-head"><h2>${esc(s.title)}</h2><span class="n">${n} device${n>1?"s":""}</span><p>${esc(s.blurb)}</p></div>${body}</section>`;
   }
-  const cur = document.querySelector('.chip[aria-selected="true"]');
+  const cur = document.querySelector('.chip[aria-pressed="true"]');
   if (cur) { const s = $("#chips"); const l = cur.offsetLeft - s.offsetLeft; if (l < s.scrollLeft || l + cur.offsetWidth > s.scrollLeft + s.clientWidth) s.scrollLeft = l - 16; }
-  $("#hint").textContent = searching ? `Showing ${total} match${total===1?"":"es"} across all categories. Pick a tab to clear the search.` : "Showing one category at a time. Search to look across all of them.";
-  $("#out").innerHTML = html || `<div class="empty">No devices match “${esc(q)}”. Try a brand (Marshall), a pedal (Tube Screamer) or a use (ambient).</div>`;
+  $("#hint").textContent = searching ? `Showing ${total} match${total===1?"":"es"} across all categories. Pick a category to clear the search.` : "Showing one category at a time. Search to look across all of them.";
+  $("#out").innerHTML = html || emptyState();
+  if (announce) say(total === 0 ? "No devices match."
+    : searching ? `${total} device${total===1?"":"s"} match.`
+    : `${DATA.sections.find(s => s.id === active).title}: ${total} device${total===1?"":"s"}.`);
+}
+
+// Say why nothing matched, and offer one way back
+function emptyState(){
+  const q = $("#q").value.trim();
+  const filters = [
+    $("#onlyNew").checked && "New in 4.1.0 only",
+    !$("#showPlug").checked && "Plugin devices off",
+    !$("#showCap").checked && "Factory captures off",
+  ].filter(Boolean);
+  const list = filters.length > 1 ? filters.slice(0, -1).join(", ") + " and " + filters.at(-1) : filters[0];
+  const why = `No devices ${q ? `match “${esc(q)}”` : "left"}${list ? ` with ${list}` : ""}.`;
+  const tip = q ? `<p>Try a brand (Marshall), a pedal (Tube Screamer) or a use (ambient).</p>` : "";
+  return `<div class="empty"><p class="why">${why}</p>${tip}<button type="button" class="clear" id="clear">Clear filters</button></div>`;
+}
+$("#out").addEventListener("click", e => {
+  if (!e.target.closest("#clear")) return;
+  $("#q").value = ""; $("#onlyNew").checked = false; $("#showPlug").checked = true; $("#showCap").checked = true;
+  render();
+  $("#q").focus(); // the button just disappeared; don't drop focus on <body>
+});
+
+// Result count for screen readers. Waits for typing to pause so it isn't
+// announced on every keystroke.
+let sayTimer;
+function say(msg){
+  clearTimeout(sayTimer);
+  sayTimer = setTimeout(() => { $("#status").textContent = msg; }, 500);
 }
 for (const d of all) d.hay = [d.name, d.basedOn, d.desc, d.prev, d.plugin].join(" ").toLowerCase();
-["#q"].forEach(s => $(s).addEventListener("input", render));
-["#onlyNew","#showPlug","#showCap"].forEach(s => $(s).addEventListener("change", render));
-render();
+$("#q").addEventListener("input", () => render());
+["#onlyNew","#showPlug","#showCap"].forEach(s => $(s).addEventListener("change", () => render()));
+render({ announce: false });
 </script>
 
 </body>
