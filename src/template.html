@@ -96,6 +96,7 @@
      color-mix() of that one color, so there's no per-category hover/selected palette. */
   .chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding-block-end:2px}
   .chip{
+    position:relative;isolation:isolate;
     flex:none;min-block-size:34px;display:inline-flex;gap:6px;align-items:center;cursor:pointer;
     font:600 14px/1 var(--display);letter-spacing:.06em;text-transform:uppercase;
     border:1px solid var(--rule);background:var(--surface);color:var(--ink);padding:7px 10px;border-radius:999px;
@@ -103,9 +104,13 @@
   .chip .dot{inline-size:8px;block-size:8px;border-radius:50%;background:var(--c)}
   .chip small{font:500 11px var(--mono);opacity:.7;letter-spacing:0}
   @media (hover:hover){
-    .chip:hover{background:color-mix(in oklab,var(--c) 8%,var(--surface));border-color:color-mix(in oklab,var(--c) 40%,var(--rule))}
+    .chip:not([aria-selected="true"]):hover{background:color-mix(in oklab,var(--c) 8%,var(--surface));border-color:color-mix(in oklab,var(--c) 40%,var(--rule))}
   }
-  .chip[aria-selected="true"]{background:color-mix(in oklab,var(--c) 18%,var(--surface));border-color:var(--c)}
+  /* The selected highlight is its own layer, not the chip's background, so a view
+     transition can move it from one chip to the next. It's translucent because
+     mid-transition it's drawn above the labels. */
+  .chip .pill{display:none;position:absolute;inset:-1px;z-index:-1;border-radius:inherit;border:1px solid var(--c);background:color-mix(in oklab,var(--c) 18%,transparent)}
+  .chip[aria-selected="true"] .pill{display:block}
 
   /* Guide accordions */
   .guide details{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding-block:8px;padding-inline:14px}
@@ -135,6 +140,9 @@
   .dev .ds{font-size:13.5px;line-height:1.45;color:var(--muted)}
   .dev .ds em{font-style:normal;color:var(--ink)}
   .dev .v{font:400 12px var(--mono);color:var(--muted);text-align:end;white-space:nowrap}
+  @media (hover:hover){
+    .dev:not(.head-row):hover{background:color-mix(in oklab,var(--c) 5%,transparent)}
+  }
   .head-row{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-block:8px;border-block-end:1px solid var(--rule)}
   .dev.head-row > *{font:inherit;color:inherit} /* header cells ignore the column styles above */
 
@@ -195,15 +203,35 @@
   }
 }
 
+/* Everything that moves. JS never starts a view transition under reduced motion,
+   and each one carries a type ("theme" or "tab") so their rules can't collide. */
 @layer motion {
-  /* Circular reveal: JS drives the clip-path; here we just switch off the default crossfade */
-  ::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}
+  /* Theme: circular reveal. JS animates the clip-path; switch off the default crossfade. */
+  :root:active-view-transition-type(theme){
+    &::view-transition-old(root),&::view-transition-new(root){animation:none;mix-blend-mode:normal}
+  }
+
+  /* Tab: the highlight glides to the new chip while the list crossfades. The pill is
+     only named during a tab transition, so it can't pop out above the theme reveal. */
+  :root:active-view-transition-type(tab){
+    .chip[aria-selected="true"] .pill{view-transition-name:active-chip}
+    &::view-transition-group(active-chip){animation-duration:.26s;animation-timing-function:cubic-bezier(.2,.7,.2,1)}
+    &::view-transition-old(root),&::view-transition-new(root){animation-duration:.15s}
+  }
 
   @media (prefers-reduced-motion:no-preference){
     html{scroll-behavior:smooth}
+    :root{interpolate-size:allow-keywords} /* lets block-size animate to and from auto */
     .theme .thumb{transition:translate .32s cubic-bezier(.34,1.4,.5,1)}
     .theme svg{transition:color .2s}
     .chip{transition:background-color .15s,border-color .15s}
+    .dev{transition:background-color .12s}
+
+    /* Guide accordions open and close by height. ::details-content is the part of
+       <details> that hides; content-visibility is discrete, so allow-discrete keeps
+       the content visible until the close finishes. Unsupported browsers just snap. */
+    .guide details::details-content{block-size:0;overflow-y:clip;transition:block-size .25s cubic-bezier(.2,.7,.2,1),content-visibility .25s allow-discrete}
+    .guide details[open]::details-content{block-size:auto}
   }
 }
 </style>
@@ -280,22 +308,27 @@ const PREFIXES = [
 ];
 const $ = s => document.querySelector(s);
 
+// Run a DOM update as a typed view transition, or just run it when motion is
+// reduced or the browser lacks transition types (the CSS keys off the type).
+const calm = matchMedia("(prefers-reduced-motion: reduce)");
+function transition(type, update) {
+  if (calm.matches || !window.ViewTransition || !("types" in ViewTransition.prototype)) { update(); return null; }
+  return document.startViewTransition({ update, types: [type] });
+}
+
 // Theme. With no saved choice, follow the OS live; once clicked, the choice sticks (localStorage).
 {
   const root = document.documentElement, sw = $("#theme");
   const osDark = matchMedia("(prefers-color-scheme: dark)");
-  const calm = matchMedia("(prefers-reduced-motion: reduce)");
   const isDark = () => (root.dataset.theme ?? (osDark.matches ? "dark" : "light")) === "dark";
   const sync = () => sw.setAttribute("aria-checked", String(isDark()));
   osDark.addEventListener("change", () => { if (!root.dataset.theme) sync(); });
   sw.addEventListener("click", () => {
     const next = isDark() ? "light" : "dark";
     try { localStorage.setItem("qc-theme", next); } catch (e) {}
-    const apply = () => { root.dataset.theme = next; sync(); };
-    if (!document.startViewTransition || calm.matches) return apply();
     const r = sw.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2;
     const end = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
-    document.startViewTransition(apply).ready.then(() => root.animate(
+    transition("theme", () => { root.dataset.theme = next; sync(); })?.ready.then(() => root.animate(
       { clipPath: [`circle(0 at ${x}px ${y}px)`, `circle(${end}px at ${x}px ${y}px)`] },
       { duration: 480, easing: "cubic-bezier(.2,.7,.2,1)", pseudoElement: "::view-transition-new(root)" }
     ));
@@ -321,15 +354,18 @@ let active = "amps";
 try { active = localStorage.getItem("qc-tab") || active; } catch (e) {}
 if (!DATA.sections.some(s => s.id === active)) active = "amps";
 $("#chips").innerHTML = DATA.sections.map(s =>
-  `<button class="chip" type="button" role="tab" id="tab-${s.id}" data-target="${s.id}" style="--c:var(${s.color})"><span class="dot"></span>${esc(s.title)} <small id="cc-${s.id}"></small></button>`
+  `<button class="chip" type="button" role="tab" id="tab-${s.id}" data-target="${s.id}" style="--c:var(${s.color})"><span class="pill" aria-hidden="true"></span><span class="dot"></span>${esc(s.title)} <small id="cc-${s.id}"></small></button>`
 ).join("");
 $("#chips").addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b) return;
-  active = b.dataset.target;
-  try { localStorage.setItem("qc-tab", active); } catch (e) {}
-  $("#q").value = ""; $("#onlyNew").checked = false;
-  render();
-  window.scrollTo({top: Math.min(window.scrollY, $(".bar").offsetTop)});
+  transition("tab", () => {
+    active = b.dataset.target;
+    try { localStorage.setItem("qc-tab", active); } catch (e) {}
+    $("#q").value = ""; $("#onlyNew").checked = false;
+    render();
+    // instant, not smooth: the new state is captured as soon as this callback returns
+    window.scrollTo({top: Math.min(window.scrollY, $(".bar").offsetTop), behavior: "instant"});
+  });
 });
 
 function row(d){
