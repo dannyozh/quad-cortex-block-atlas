@@ -5,162 +5,206 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-:root{
-  color-scheme:light dark;
-  /* Every color is declared once. The switch only flips color-scheme. */
-  --ground:light-dark(#ECEEEA,#121416);
-  --surface:light-dark(#FAFBF8,#1A1D20);
-  --surface-2:light-dark(#E2E5E0,#24282C);
-  --ink:light-dark(#1A1D21,#E6E8E4);
-  --muted:light-dark(#5B6168,#9AA1A8);
-  --rule:light-dark(#D3D7D1,#2F3438);
+/* Cascade layers, lowest to highest priority. A later layer always wins over an
+   earlier one regardless of selector specificity, so source order stops mattering. */
+@layer tokens, base, layout, components, motion;
 
-  --accent:light-dark(#0B7A83,#3FB8C1);
-  --accent-ink:light-dark(#FFFFFF,#0B1214);
-  --new:light-dark(#C2410C,#FB923C);
-  --new-bg:light-dark(#FCE9DE,#3A2114);
-  --plug:light-dark(#6D4AA8,#B69CF0);
-  --plug-bg:light-dark(#EEE7F8,#2A2238);
+@layer tokens {
+  :root{
+    color-scheme:light dark;
+    /* Every color is declared once. The switch only flips color-scheme. */
+    --ground:light-dark(#ECEEEA,#121416);
+    --surface:light-dark(#FAFBF8,#1A1D20);
+    --surface-2:light-dark(#E2E5E0,#24282C);
+    --ink:light-dark(#1A1D21,#E6E8E4);
+    --muted:light-dark(#5B6168,#9AA1A8);
+    --rule:light-dark(#D3D7D1,#2F3438);
 
-  --c-amp:light-dark(#C2410C,#FB923C);
-  --c-cab:light-dark(#8A6D3B,#D4B07A);
-  --c-drive:light-dark(#B91C1C,#F87171);
-  --c-dyn:light-dark(#0B7A83,#3FB8C1);
-  --c-mod:light-dark(#4F46E5,#A5B4FC);
-  --c-time:light-dark(#0369A1,#7DD3FC);
-  --c-pitch:light-dark(#A21CAF,#F0ABFC);
-  --c-util:light-dark(#52606D,#A3B1BE);
-  --c-cap:light-dark(#15803D,#4ADE80);
-  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
-  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
-}
-:root[data-theme="light"]{color-scheme:light}
-:root[data-theme="dark"]{color-scheme:dark}
-*{box-sizing:border-box}
-body{background:var(--ground);color:var(--ink);font:15px/1.55 var(--body);margin:0}
-.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:0 64px}
-header.top{padding-block:24px 12px;display:grid;gap:10px}
-.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-h1{font:700 clamp(34px,5vw,52px)/.95 var(--display);letter-spacing:-.01em;margin:0;text-wrap:balance;text-transform:uppercase}
-h1 .fw{color:var(--accent)}
-.lede{max-width:68ch;color:var(--muted);margin:0}
-.lede b{color:var(--ink);font-weight:600}
-.stats{display:flex;flex-wrap:wrap;gap:8px 24px;font:500 13px/1.3 var(--mono);color:var(--muted)}
-.stats strong{color:var(--ink);font-weight:500}
+    --accent:light-dark(#0B7A83,#3FB8C1);
+    --accent-ink:light-dark(#FFFFFF,#0B1214);
+    --new:light-dark(#B53D0B,#FB923C);
+    --plug:light-dark(#6D4AA8,#B69CF0);
 
-.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--ground);border-bottom:1px solid var(--rule);padding-block:12px;display:grid;gap:10px}
-.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-#q{flex:1 1 260px;min-width:0;font:15px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:10px 12px}
-#q:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.toggle{font:500 13px var(--body);display:inline-flex;gap:6px;align-items:center;color:var(--muted);cursor:pointer;user-select:none}
-.toggle input{accent-color:var(--accent)}
-.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding-bottom:2px}
-.chip{flex:none;font:600 14px/1 var(--display);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rule);background:var(--surface);color:var(--ink);padding:7px 10px;border-radius:999px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
-.chip .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
-.chip[aria-selected="true"]{background:var(--ink);color:var(--ground);border-color:var(--ink)}
-.chip small{font:500 11px var(--mono);opacity:.7;letter-spacing:0}
+    --c-amp:light-dark(#C2410C,#FB923C);
+    --c-cab:light-dark(#8A6D3B,#D4B07A);
+    --c-drive:light-dark(#B91C1C,#F87171);
+    --c-dyn:light-dark(#0B7A83,#3FB8C1);
+    --c-mod:light-dark(#4F46E5,#A5B4FC);
+    --c-time:light-dark(#0369A1,#7DD3FC);
+    --c-pitch:light-dark(#A21CAF,#F0ABFC);
+    --c-util:light-dark(#52606D,#A3B1BE);
+    --c-cap:light-dark(#15803D,#4ADE80);
 
-.guide{display:grid;grid-template-columns:1fr;align-items:start;gap:6px;margin-block:12px 0}
-.guide details{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:8px 14px}
-.guide summary{cursor:pointer;font:600 17px var(--display);letter-spacing:.04em;text-transform:uppercase}
-.guide dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:12px 0 4px;font-size:14px}
-.guide dt{font:500 13px var(--mono);color:var(--accent)}
-.guide dd{margin:0;color:var(--muted)}
-.guide p{font-size:14px;color:var(--muted);margin:10px 0 4px}
-
-section.cat{margin-top:20px;scroll-margin-top:130px}
-.cat-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;border-bottom:2px solid var(--c);padding-bottom:8px}
-.cat-head h2{font:700 30px/1 var(--display);text-transform:uppercase;letter-spacing:.02em;margin:0}
-.cat-head .n{font:500 13px var(--mono);color:var(--muted)}
-.cat-head p{flex-basis:100%;margin:2px 0 0;color:var(--muted);font-size:14px;max-width:80ch}
-h3.sub{font:600 15px var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:14px 0 2px}
-
-.list{display:grid}
-.dev{display:grid;grid-template-columns:minmax(160px,1fr) minmax(150px,1fr) 2.6fr 52px;gap:2px 16px;padding-block:6px;border-bottom:1px solid var(--rule);align-items:baseline}
-.dev .nm{font-weight:600;font-size:14.5px;line-height:1.35;display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}
-.dev .bo{font-size:13.5px;line-height:1.4}
-.dev .bo.none{color:var(--muted);font-style:italic}
-.dev .ds{font-size:13.5px;line-height:1.45;color:var(--muted)}
-.dev .ds em{font-style:normal;color:var(--ink)}
-.dev .v{font:400 12px var(--mono);color:var(--muted);text-align:right;white-space:nowrap}
-.tag{font:600 10.5px/1 var(--mono);letter-spacing:.04em;padding:3px 5px;border-radius:3px;text-transform:uppercase;white-space:nowrap}
-.tag.new{background:var(--new-bg);color:var(--new)}
-.tag.plug{background:var(--plug-bg);color:var(--plug)}
-.head-row{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-block:8px;border-bottom:1px solid var(--rule)}
-.head-row .v{text-align:right}
-.head-row .ds{color:inherit}
-.hint{font-size:12.5px;color:var(--muted);min-height:1em}
-.empty{padding:40px 0;color:var(--muted);text-align:center}
-footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--rule);font-size:13px;color:var(--muted);display:grid;gap:6px}
-footer a{color:var(--accent)}
-.plugmeta{font-size:14px;color:var(--muted);margin:4px 0 0}
-.plugmeta a{color:var(--plug)}
-
-/* Toggles row: group the checkboxes so they wrap as one unit */
-.toggles{display:flex;flex-wrap:wrap;gap:6px 16px}
-.chip{min-height:34px}
-
-/* Tablet: name | modeled on | added, description full width underneath */
-@media (max-width:1024px){
-  .wrap{padding-inline:16px}
-  .dev{grid-template-columns:minmax(0,1fr) minmax(0,1fr) 44px;gap:2px 14px;padding-block:8px}
-  .dev .ds{grid-column:1 / -1}
-  .dev .v{grid-row:1;grid-column:3}
-  .head-row .ds{display:none}
+    --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+    --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  }
+  :root[data-theme="light"]{color-scheme:light}
+  :root[data-theme="dark"]{color-scheme:dark}
 }
 
-/* Phone: stacked rows, slimmer sticky bar */
-@media (max-width:640px){
-  body{font-size:14.5px}
-  header.top{padding-block:16px 8px;gap:8px}
-  .lede{font-size:14px}
-  .stats{gap:4px 14px;font-size:12px}
-  .bar{padding-block:8px;gap:8px}
-  #q{font-size:16px;padding:9px 11px;flex-basis:100%} /* 16px stops iOS zooming on focus */
-  .toggles{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;gap:14px;width:100%}
-  .toggles::-webkit-scrollbar{display:none}
-  .toggle{flex:none;font-size:13px;min-height:28px}
-  .toggle input{width:18px;height:18px}
-  .chips{scrollbar-width:none;margin-inline:-16px;padding-inline:16px;scroll-padding-inline:16px}
-  .chips::-webkit-scrollbar{display:none}
-  .hint{display:none}
-  .dev{grid-template-columns:minmax(0,1fr) auto;gap:3px 12px;padding-block:10px}
-  .dev .nm{grid-column:1}
-  .dev .v{grid-column:2;grid-row:1}
-  .dev .bo,.dev .ds{grid-column:1 / -1}
-  .dev .bo{font-size:13px}
-  .dev .ds{font-size:13.5px}
-  .head-row{display:none}
-  .cat-head h2{font-size:26px}
-  .cat-head p{font-size:13px}
-  .guide summary{font-size:16px;padding-block:2px}
-  .guide dl{font-size:13px}
-  footer{margin-top:36px;font-size:12px}
+@layer base {
+  *{box-sizing:border-box}
+  body{background:var(--ground);color:var(--ink);font:15px/1.55 var(--body);margin:0}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  @media (max-width:640px){ body{font-size:14.5px} }
 }
-/* Theme switch: a role=switch button; all visual state hangs off aria-checked */
-.top-row{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.theme{
-  --w:56px; --h:30px; --pad:3px; --knob:calc(var(--h) - 2*var(--pad) - 2px);
-  position:relative;flex:none;inline-size:var(--w);block-size:var(--h);padding:0;
-  display:grid;grid-template-columns:1fr 1fr;place-items:center;
-  border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--muted);cursor:pointer;
+
+/* Page skeleton. Viewport media queries stay here: they're about the page, not a component. */
+@layer layout {
+  .wrap{max-inline-size:1180px;margin-inline:auto;padding-inline:20px;padding-block:0 64px}
+  header.top{padding-block:24px 12px;display:grid;gap:10px}
+  .top-row{display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .bar{position:sticky;inset-block-start:env(safe-area-inset-top,0px);z-index:5;background:var(--ground);border-block-end:1px solid var(--rule);padding-block:12px;display:grid;gap:10px}
+  .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .toggles{display:flex;flex-wrap:wrap;gap:6px 16px}
+  .guide{display:grid;grid-template-columns:1fr;align-items:start;gap:6px;margin-block:12px 0}
+  section.cat{margin-block-start:20px;scroll-margin-block-start:130px}
+  footer{margin-block-start:56px;padding-block-start:16px;border-block-start:1px solid var(--rule);font-size:13px;color:var(--muted);display:grid;gap:6px}
+
+  @media (max-width:1024px){ .wrap{padding-inline:16px} }
+  @media (max-width:640px){
+    header.top{padding-block:16px 8px;gap:8px}
+    .bar{padding-block:8px;gap:8px}
+    .toggles{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;gap:14px;inline-size:100%}
+    .toggles::-webkit-scrollbar{display:none}
+    footer{margin-block-start:36px;font-size:12px}
+  }
 }
-.theme:hover{border-color:color-mix(in oklab,var(--accent) 55%,var(--rule))}
-.theme svg{position:relative;z-index:1;inline-size:15px;block-size:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.theme .moon{fill:currentColor;stroke:none}
-.theme .thumb{position:absolute;inset-block-start:var(--pad);inset-inline-start:var(--pad);inline-size:var(--knob);block-size:var(--knob);border-radius:50%;background:var(--ink);box-shadow:0 1px 2px rgb(0 0 0 / .25)}
-.theme[aria-checked="true"] .thumb{translate:calc(var(--w) - var(--knob) - 2*var(--pad) - 2px) 0}
-.theme[aria-checked="false"] .sun,.theme[aria-checked="true"] .moon{color:var(--ground)}
-@media (forced-colors:active){ .theme .thumb{background:CanvasText} .theme[aria-checked="false"] .sun,.theme[aria-checked="true"] .moon{color:Canvas} }
 
-/* Circular reveal: JS drives the clip-path; here we just switch off the default crossfade */
-::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}
+@layer components {
+  /* Header */
+  .eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  h1{font:700 clamp(34px,5vw,52px)/.95 var(--display);letter-spacing:-.01em;margin:0;text-wrap:balance;text-transform:uppercase}
+  h1 .fw{color:var(--accent)}
+  .lede{max-inline-size:68ch;color:var(--muted);margin:0}
+  .lede b{color:var(--ink);font-weight:600}
+  .stats{display:flex;flex-wrap:wrap;gap:8px 24px;font:500 13px/1.3 var(--mono);color:var(--muted)}
+  .stats strong{color:var(--ink);font-weight:500}
 
-@media (prefers-reduced-motion:no-preference){
-  html{scroll-behavior:smooth}
-  .theme .thumb{transition:translate .32s cubic-bezier(.34,1.4,.5,1)}
-  .theme svg{transition:color .2s}
+  /* Search + filter toggles */
+  #q{flex:1 1 260px;min-inline-size:0;font:15px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:10px 12px}
+  .toggle{font:500 13px var(--body);display:inline-flex;gap:6px;align-items:center;color:var(--muted);cursor:pointer;user-select:none;border-radius:4px}
+  .toggle input{accent-color:var(--accent)}
+  /* The label reacts to its own checkbox: no JS, no extra class to keep in sync */
+  .toggle:has(input:checked){color:var(--ink)}
+  .toggle:has(input:focus-visible){outline:2px solid var(--accent);outline-offset:2px}
+  .toggle input:focus-visible{outline:none}
+  .hint{font-size:12.5px;color:var(--muted);min-block-size:1em}
+
+  /* Category chips. Each chip gets --c inline from the data; every state is a
+     color-mix() of that one color, so there's no per-category hover/selected palette. */
+  .chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding-block-end:2px}
+  .chip{
+    flex:none;min-block-size:34px;display:inline-flex;gap:6px;align-items:center;cursor:pointer;
+    font:600 14px/1 var(--display);letter-spacing:.06em;text-transform:uppercase;
+    border:1px solid var(--rule);background:var(--surface);color:var(--ink);padding:7px 10px;border-radius:999px;
+  }
+  .chip .dot{inline-size:8px;block-size:8px;border-radius:50%;background:var(--c)}
+  .chip small{font:500 11px var(--mono);opacity:.7;letter-spacing:0}
+  @media (hover:hover){
+    .chip:hover{background:color-mix(in oklab,var(--c) 8%,var(--surface));border-color:color-mix(in oklab,var(--c) 40%,var(--rule))}
+  }
+  .chip[aria-selected="true"]{background:color-mix(in oklab,var(--c) 18%,var(--surface));border-color:var(--c)}
+
+  /* Guide accordions */
+  .guide details{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding-block:8px;padding-inline:14px}
+  .guide summary{cursor:pointer;font:600 17px var(--display);letter-spacing:.04em;text-transform:uppercase}
+  .guide dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin-block:12px 4px;margin-inline:0;font-size:14px}
+  .guide dt{font:500 13px var(--mono);color:var(--accent)}
+  .guide dd{margin:0;color:var(--muted)}
+  .guide p{font-size:14px;color:var(--muted);margin-block:10px 4px;margin-inline:0}
+
+  /* Category section */
+  .cat-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;border-block-end:2px solid var(--c);padding-block-end:8px}
+  .cat-head h2{font:700 30px/1 var(--display);text-transform:uppercase;letter-spacing:.02em;margin:0}
+  .cat-head .n{font:500 13px var(--mono);color:var(--muted)}
+  .cat-head p{flex-basis:100%;margin-block:2px 0;margin-inline:0;color:var(--muted);font-size:14px;max-inline-size:80ch}
+  h3.sub{font:600 15px var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-block:14px 2px;margin-inline:0}
+  .plugmeta{font-size:14px;color:var(--muted);margin-block:4px 0;margin-inline:0}
+  .plugmeta a{color:var(--plug)}
+
+  /* Device rows. The list is a size container, so a row lays itself out from the
+     space it actually has, not from the window width. The same row would reflow
+     correctly inside a sidebar or a dialog. */
+  .list{display:grid;container:device-list / inline-size}
+  .dev{display:grid;grid-template-columns:minmax(160px,1fr) minmax(150px,1fr) 2.6fr 52px;gap:2px 16px;padding-block:6px;border-block-end:1px solid var(--rule);align-items:baseline}
+  .dev .nm{font-weight:600;font-size:14.5px;line-height:1.35;display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}
+  .dev .bo{font-size:13.5px;line-height:1.4}
+  .dev .bo.none{color:var(--muted);font-style:italic}
+  .dev .ds{font-size:13.5px;line-height:1.45;color:var(--muted)}
+  .dev .ds em{font-style:normal;color:var(--ink)}
+  .dev .v{font:400 12px var(--mono);color:var(--muted);text-align:end;white-space:nowrap}
+  .head-row{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-block:8px;border-block-end:1px solid var(--rule)}
+  .dev.head-row > *{font:inherit;color:inherit} /* header cells ignore the column styles above */
+
+  /* Medium: name | modeled on | added, description full width underneath */
+  @container device-list (width <= 992px){
+    .dev{grid-template-columns:minmax(0,1fr) minmax(0,1fr) 44px;gap:2px 14px;padding-block:8px}
+    .dev .ds{grid-column:1 / -1}
+    .dev .v{grid-row:1;grid-column:3}
+    .head-row .ds{display:none}
+  }
+  /* Narrow: stacked; name and version share the first line */
+  @container device-list (width <= 608px){
+    .dev{grid-template-columns:minmax(0,1fr) auto;gap:3px 12px;padding-block:10px}
+    .dev .nm{grid-column:1}
+    .dev .v{grid-column:2;grid-row:1}
+    .dev .bo,.dev .ds{grid-column:1 / -1}
+    .dev .bo{font-size:13px}
+    .head-row{display:none}
+  }
+
+  /* Tags: the background is mixed from the text color, so each tag is one token */
+  .tag{font:600 10.5px/1 var(--mono);letter-spacing:.04em;padding-block:3px;padding-inline:5px;border-radius:3px;text-transform:uppercase;white-space:nowrap;
+       color:var(--tone);background:color-mix(in oklab,var(--tone) 10%,var(--surface))}
+  .tag.new{--tone:var(--new)}
+  .tag.plug{--tone:var(--plug)}
+
+  .empty{padding-block:40px;color:var(--muted);text-align:center}
+  footer a{color:var(--accent)}
+
+  /* Theme switch: a role=switch button; all visual state hangs off aria-checked */
+  .theme{
+    --w:56px; --h:30px; --pad:3px; --knob:calc(var(--h) - 2*var(--pad) - 2px);
+    position:relative;flex:none;inline-size:var(--w);block-size:var(--h);padding:0;
+    display:grid;grid-template-columns:1fr 1fr;place-items:center;
+    border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--muted);cursor:pointer;
+  }
+  .theme:hover{border-color:color-mix(in oklab,var(--accent) 55%,var(--rule))}
+  .theme svg{position:relative;z-index:1;inline-size:15px;block-size:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .theme .moon{fill:currentColor;stroke:none}
+  .theme .thumb{position:absolute;inset-block-start:var(--pad);inset-inline-start:var(--pad);inline-size:var(--knob);block-size:var(--knob);border-radius:50%;background:var(--ink);box-shadow:0 1px 2px rgb(0 0 0 / .25)}
+  .theme[aria-checked="true"] .thumb{translate:calc(var(--w) - var(--knob) - 2*var(--pad) - 2px) 0}
+  .theme[aria-checked="false"] .sun,.theme[aria-checked="true"] .moon{color:var(--ground)}
+  @media (forced-colors:active){ .theme .thumb{background:CanvasText} .theme[aria-checked="false"] .sun,.theme[aria-checked="true"] .moon{color:Canvas} }
+
+  @media (max-width:640px){
+    .lede{font-size:14px}
+    .stats{gap:4px 14px;font-size:12px}
+    #q{font-size:16px;padding:9px 11px;flex-basis:100%} /* 16px stops iOS zooming on focus */
+    .toggle{flex:none;font-size:13px;min-block-size:28px}
+    .toggle input{inline-size:18px;block-size:18px}
+    .chips{scrollbar-width:none;margin-inline:-16px;padding-inline:16px;scroll-padding-inline:16px}
+    .chips::-webkit-scrollbar{display:none}
+    .hint{display:none}
+    .cat-head h2{font-size:26px}
+    .cat-head p{font-size:13px}
+    .guide summary{font-size:16px;padding-block:2px}
+    .guide dl{font-size:13px}
+  }
+}
+
+@layer motion {
+  /* Circular reveal: JS drives the clip-path; here we just switch off the default crossfade */
+  ::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}
+
+  @media (prefers-reduced-motion:no-preference){
+    html{scroll-behavior:smooth}
+    .theme .thumb{transition:translate .32s cubic-bezier(.34,1.4,.5,1)}
+    .theme svg{transition:color .2s}
+    .chip{transition:background-color .15s,border-color .15s}
+  }
 }
 </style>
 
