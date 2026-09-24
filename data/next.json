@@ -1,0 +1,5282 @@
+{
+ "props": {
+  "pageProps": {
+   "neuralCapturesV2List": [
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Brit 2203 87",
+     "basedOn": "Marshall\u00ae JCM800\u00ae 1987",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "DC Heavy Crusader",
+     "basedOn": "Dean Costello Audio\u00ae Heavy Metal Warfare\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Dovre 50",
+     "basedOn": "Dover Amplification\u00ae DA-50\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Drywood Purple Horror",
+     "basedOn": "Driftwood Amplifiers\u00ae Purple Nightmare\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Dumbbell ODS",
+     "basedOn": "Overdrive Special\u00ae by Dumble\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "ENG Feral 120",
+     "basedOn": "ENGL\u00ae Savage\u00ae 120",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "EV101IIIS EL34",
+     "basedOn": "EVH\u00ae 5150 III\u00aeS EL34",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Fryed Pit Bull 50",
+     "basedOn": "Fryette\u00ae Pittbull Fifty/CL\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Nailer Battle 38",
+     "basedOn": "Naylor\u00ae Duel 38\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "RV Amp G120",
+     "basedOn": "Revv Amplification\u00ae Generator 120\u00ae MK3",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "US DLX 58",
+     "basedOn": "Fender\u00ae Deluxe 5E2\u00ae 1958",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "UK C10 64",
+     "basedOn": "Vox\u00ae AC10\u00ae 1964",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar combo amps",
+     "name": "Gibb GA8",
+     "basedOn": "Gibson\u00ae GA-8\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar combo amps",
+     "name": "Super Bolt",
+     "basedOn": "Two Notes\u00ae Supro\u00ae Thunderbolt 15\u201d\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Bass amps",
+     "name": "Amped Super Valve Pro",
+     "basedOn": "Ampeg\u00ae SVT-2\u00ae Pro",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Bass amps",
+     "name": "Bass Mark LM3",
+     "basedOn": "Markbass\u00ae Little Mark\u00ae III",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Bass amps",
+     "name": "CA 400",
+     "basedOn": "Mesa\u00ae Boogie\u00ae Bass 400\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Bass amps",
+     "name": "Peace BC1",
+     "basedOn": "Pearce\u00ae BC-1\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Bass amps",
+     "name": "Tech41 GED12",
+     "basedOn": "Tech 21\u00ae SansAmp\u00ae GED-2112\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "4-Comp Custom",
+     "basedOn": "Based on a handmade, heavily-modified device inspired by Keeley Electronics\u00ae 4 Knob\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "Bogna Bloom",
+     "basedOn": "Bogner\u00ae Harlow\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "Symmetrical Comp",
+     "basedOn": "Darkglass\u00ae Super Symmetry\u00ae 115 GeV\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "OC-76 Comp",
+     "basedOn": "Origin Effects\u00ae Cali76\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "Beehive Wasp Fuzz",
+     "basedOn": "Beetronics\u00ae Vezzpa\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "Iba Basic Fuzz",
+     "basedOn": "Ibanez\u00ae No. 59 Standard Fuzz\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "Love Believer",
+     "basedOn": "Lovepedal\u00ae Believe\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "Love Bender Mk3",
+     "basedOn": "Lovepedal\u00ae MKIII Tonebender\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "Love Fuzz Lord III",
+     "basedOn": "Lovepedal\u00ae Fuzz Master III\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "MKK Bass Lord",
+     "basedOn": "Malekko\u00ae B:assmaster\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "Otso Bender Mk1",
+     "basedOn": "Otsola\u00ae Mk1",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "Reus Bender Mk2",
+     "basedOn": "Reuss Musical Instruments\u00ae Germanium Bender\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "Trademark Fuzz",
+     "basedOn": "Hallmark\u00ae Guitars Nu-Fuzz\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "Unsound Hyper Pozzum",
+     "basedOn": "Unsound Circuitry\u00ae Hyper Pozzum\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Fuzz pedals",
+     "name": "Unsound Kato",
+     "basedOn": "Unsound Circuitry\u00ae Kato\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Chief HM2",
+     "basedOn": "Boss\u00ae HM-2\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Love Champion",
+     "basedOn": "Lovepedal\u00ae Champ\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Love DLX",
+     "basedOn": "Lovepedal\u00ae 5E3 Deluxe\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Love TM",
+     "basedOn": "Lovepedal\u00ae JTM\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Love Drive 11",
+     "basedOn": "Lovepedal\u00ae OD Eleven\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "TW Tube Drive",
+     "basedOn": "Tube Works\u00ae Tube Driver\u00ae",
+     "addedInCorOs": "3.3.0"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Unsound Shivver",
+     "basedOn": "Unsound Circuitry\u00ae Shivver\u00ae",
+     "addedInCorOs": "3.3.0"
+    }
+   ],
+   "notReleased": [
+    {
+     "deviceCategory": "Bass amps",
+     "basedOn": "Acoustic\u00ae 360",
+     "deviceName": "Bass 360"
+    },
+    {
+     "deviceCategory": "Bass amps",
+     "basedOn": "",
+     "deviceName": "Bass Flip-Top Patch"
+    },
+    {
+     "deviceCategory": "Bass amps",
+     "basedOn": "",
+     "deviceName": "G400K"
+    },
+    {
+     "deviceCategory": "Bass overdrive",
+     "basedOn": "Maestro\u00ae Brass Master\u00ae",
+     "deviceName": "Brass Matters"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "basedOn": "MXR\u00ae Dynacomp\u00ae",
+     "deviceName": "Dynamic Comp"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "basedOn": "Bogner\u00ae Harlow\u00ae",
+     "deviceName": "Hairlow"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "basedOn": "",
+     "deviceName": "Neural Compressor"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "basedOn": "Darkglass\u00ae Super Symmetry\u00ae",
+     "deviceName": "Super Symmetry"
+    },
+    {
+     "deviceCategory": "Delay",
+     "basedOn": "",
+     "deviceName": "Multi Tap Delay"
+    },
+    {
+     "deviceCategory": "Delay",
+     "basedOn": "",
+     "deviceName": "Multitap"
+    },
+    {
+     "deviceCategory": "EQ",
+     "basedOn": "",
+     "deviceName": "Graphic 10 Band"
+    },
+    {
+     "deviceCategory": "EQ",
+     "basedOn": "",
+     "deviceName": "Peak/Notch"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Mesa\u00ae Boogie\u00ae Poweramp",
+     "deviceName": "6L6 PWR"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Fender\u00ae Blackface Super Reverb\u00ae",
+     "deviceName": "BF Super RVB Normal"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Fender\u00ae Blackface Super Reverb\u00ae",
+     "deviceName": "BF Super RVB Vibrato"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Marshall\u00ae Super Bass 100 Bright",
+     "deviceName": "British Bass 100 Bright"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Marshall\u00ae Super Bass 100 Normal",
+     "deviceName": "British Bass 100 Normal"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Marshall\u00ae Super Bass 100 Jumpered",
+     "deviceName": "British Bass 100 Patch"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "EVH\u00ae 5150\u00ae III Green",
+     "deviceName": "EV III Green"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Engl\u00ae 530",
+     "deviceName": "NGL 530 Pre"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Sunn\u00ae Model T\u00ae \u2013 Channel One",
+     "deviceName": "Sonn Mod T CH1"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Sunn\u00ae Model T\u00ae \u2013 Channel Two",
+     "deviceName": "Sonn Mod T CH2"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Fender\u00ae Tweed Deluxe",
+     "deviceName": "Tweed DLX"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Bogner\u00ae Ecstasy",
+     "deviceName": "XTC Green"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "basedOn": "Bogner\u00ae Ecstasy",
+     "deviceName": "XTC Red"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "basedOn": "Octa Fuzz\u00ae",
+     "deviceName": "Octofuzz"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "basedOn": "Dallas Arbiter\u00ae Fuzz Face\u00ae",
+     "deviceName": "Round Fuzz Ge"
+    },
+    {
+     "deviceCategory": "Bass cabinets",
+     "basedOn": "Ampeg\u00ae SVT-410HE 4\u00d710 bass cabinet",
+     "deviceName": "410 Bass CL"
+    },
+    {
+     "deviceCategory": "Bass cabinets",
+     "basedOn": "Darkglass\u00ae D410C loaded with custom Eminence\u00ae ceramic drivers",
+     "deviceName": "D410C Darkglass\u00ae"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "basedOn": "",
+     "deviceName": "412 Brit 60B BB '77"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "basedOn": "",
+     "deviceName": "412 Zila Cust V30 '12 V1"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "basedOn": "",
+     "deviceName": "410 Darkglass"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "basedOn": "",
+     "deviceName": "8 Voice Chorus"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "basedOn": "",
+     "deviceName": "Tremolo/Panner"
+    },
+    {
+     "deviceCategory": "Neural Captures",
+     "basedOn": "",
+     "deviceName": "ADA\u00ae MP1\u00ae + VHT\u00ae Two Fifty Two\u00ae"
+    },
+    {
+     "deviceCategory": "Neural Captures",
+     "basedOn": "",
+     "deviceName": "Ampeg\u00ae SVT\u00ae Heritage"
+    },
+    {
+     "deviceCategory": "Neural Captures",
+     "basedOn": "",
+     "deviceName": "Tech21\u00ae GED2112\u00ae (Rack Version)"
+    },
+    {
+     "deviceCategory": "Other third party IRs",
+     "basedOn": "",
+     "deviceName": "212 Omg Stand CB M65 '18"
+    },
+    {
+     "deviceCategory": "Other third party IRs",
+     "basedOn": "",
+     "deviceName": "212 Omg Stand VM65 '18"
+    },
+    {
+     "deviceCategory": "Other third party IRs",
+     "basedOn": "",
+     "deviceName": "410 Amped SVT 00s"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "basedOn": "",
+     "deviceName": "Analog Octave"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "basedOn": "",
+     "deviceName": "Detune"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "basedOn": "",
+     "deviceName": "Digital Octave"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "basedOn": "",
+     "deviceName": "Drop"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "basedOn": "",
+     "deviceName": "Grain Wham"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "basedOn": "",
+     "deviceName": "Thicc"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "basedOn": "",
+     "deviceName": "Interstellar Reverb"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "basedOn": "",
+     "deviceName": "Reverse Reverb"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "basedOn": "",
+     "deviceName": "Singularity Reverb"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "basedOn": "",
+     "deviceName": "Swell Reverb"
+    },
+    {
+     "deviceCategory": "Utility",
+     "basedOn": "",
+     "deviceName": "Slow Gear / Swell"
+    },
+    {
+     "deviceCategory": "Wah",
+     "basedOn": "Vox\u00ae Wah",
+     "deviceName": "British Wah"
+    },
+    {
+     "deviceCategory": "Wah",
+     "basedOn": "Dunlop\u00ae Bass Wah",
+     "deviceName": "Crying Bass Wah"
+    },
+    {
+     "deviceCategory": "Wah",
+     "basedOn": "Fulltone\u00ae Clyde",
+     "deviceName": "Fuller\u2019s Bonnie"
+    },
+    {
+     "deviceCategory": "Wah",
+     "basedOn": "",
+     "deviceName": "Guitar Auto Wah"
+    },
+    {
+     "deviceCategory": "Wah",
+     "basedOn": "MXR\u00ae MC404 CAE",
+     "deviceName": "MXC404 Wah"
+    },
+    {
+     "deviceCategory": "Wah",
+     "basedOn": "Mu-Tron\u00ae",
+     "deviceName": "uTron Auto Wah"
+    }
+   ],
+   "groups": [
+    {
+     "deviceType": "neural_captures_v1",
+     "groupName": "Neural Captures V1",
+     "list": [
+      {
+       "name": "ABA MPre1",
+       "basedOn": "ADA\u00ae MP1\u00ae Preamp",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": "DAD Pre"
+      },
+      {
+       "name": "Aggi 700",
+       "basedOn": "Aguilar\u00ae AG700\u00ae",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Aggi 751",
+       "basedOn": "Aguilar\u00ae DB751\u00ae",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": "AG D750B"
+      },
+      {
+       "name": "Aggi Hammer 500",
+       "basedOn": "Aguilar\u00ae ToneHammer 500\u00ae",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": "AG Thor\u2019s Hammer 500"
+      },
+      {
+       "name": "Amped SV Classic",
+       "basedOn": "Ampeg\u00ae SVT Classic\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Amped V5B",
+       "basedOn": "Ampeg\u00ae V-4B\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Amped V4B",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Anima Fuzz",
+       "basedOn": "Human Gear\u00ae Animato\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": "Animate Fuzz"
+      },
+      {
+       "name": "BBD SonicMax",
+       "basedOn": "BBE\u00ae Sonic Stomp Sonic Maximizer\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna Fish",
+       "basedOn": "Bogner\u00ae Fish\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Banger Fish",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna Fish+290",
+       "basedOn": "Bogner\u00ae Fish\u00ae + Mesa\u00ae Boogie\u00ae Stereo Simul-Class\u00ae 2:Ninety\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Banger Fish+290",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna Uber",
+       "basedOn": "Bogner\u00ae \u00dcberschall\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Banger Uber",
+       "updatedInCorOs": "",
+       "replaces": "Uber"
+      },
+      {
+       "name": "Bogna X Blue",
+       "basedOn": "Bogner\u00ae Ecstasy Blue\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Banger Xtacy Blue, Bogna Xtacy Blue",
+       "updatedInCorOs": "",
+       "replaces": "XTC Blue"
+      },
+      {
+       "name": "Bogna X100B Ch1",
+       "basedOn": "Bogner\u00ae Ecstasy 100B\u00ae Ch1",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B Ch2",
+       "basedOn": "Bogner\u00ae Ecstasy 100B\u00ae Ch2",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B Ch3",
+       "basedOn": "Bogner\u00ae Ecstasy 100B\u00ae Ch3",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B PA NEW",
+       "basedOn": "Bogner\u00ae Ecstasy 100B\u00ae Power Amp EL34 New",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B PA NEW+VAR",
+       "basedOn": "Bogner\u00ae Ecstasy\u00ae 100B Power Amp EL34 New+Var",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B PA OLD",
+       "basedOn": "Bogner\u00ae Ecstasy 100B\u00ae Power Amp EL34 Old",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B PA OLD+VAR",
+       "basedOn": "Bogner\u00ae Ecstasy\u00ae 100B Power Amp EL34 Old+Var",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B Pre Ch1",
+       "basedOn": "Bogner\u00ae Ecstasy 100B\u00ae Preamp Ch1",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B Pre Ch2 Hi",
+       "basedOn": "Bogner\u00ae Ecstasy 100B\u00ae Preamp Ch2 High Gain",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B Pre Ch2 Lo",
+       "basedOn": "Bogner\u00ae Ecstasy 100B\u00ae Preamp Ch2 Low Gain",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B Pre Ch3 Lead",
+       "basedOn": "Bogner\u00ae Ecstasy 100B\u00ae Preamp Ch3 Lead",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna X100B Pre Ch3 Plexi",
+       "basedOn": "Bogner\u00ae Ecstasy 100B\u00ae Preamp Ch3 Plexi",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit 2210",
+       "basedOn": "Marshall\u00ae JCM800\u00ae 2210",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit 2210 PA EL34",
+       "basedOn": "Marshall\u00ae 2210 Power Amp EL34",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": "EL34 PWR"
+      },
+      {
+       "name": "Brit 2555 Clean",
+       "basedOn": "Marshall\u00ae Silver Jubilee\u00ae 2555 Clean",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit 2555 Lead",
+       "basedOn": "Marshall\u00ae Silver Jubilee\u00ae 2555 Lead",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit 2555 Rhy",
+       "basedOn": "Marshall\u00ae Silver Jubilee\u00ae 2555 Rhythm",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit PA-EL34",
+       "basedOn": "Marshall\u00ae Silver Jubilee 2555\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 3Axe",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Triaxis\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali 3Axe",
+       "updatedInCorOs": "",
+       "replaces": "XYZ Pre"
+      },
+      {
+       "name": "CA 3Axe+290",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Triaxis\u00ae + Mesa\u00ae Boogie\u00ae Stereo Simul-Class\u00ae 2:Ninety\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali 3Axe+290",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA BassWalk",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Walkabout\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali BassWalk",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA BigBrick750",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Big Block 750\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali BigBrick750",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA John's",
+       "basedOn": "Mesa Boogie\u00ae JP2C\u00ae Channels 1-3",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA John's Ch1",
+       "basedOn": "Mesa Boogie\u00ae JP2C\u00ae Ch1",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA John's Ch2",
+       "basedOn": "Mesa Boogie\u00ae JP2C\u00ae Ch2",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA John's Ch3",
+       "basedOn": "Mesa Boogie\u00ae JP2C\u00ae Ch3",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA M6Rifle",
+       "basedOn": "Mesa\u00ae Boogie\u00ae M6 Carbine\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali M6Rifle",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA MixBass",
+       "basedOn": "Mesa\u00ae Boogie\u00ae M6 Carbine\u00ae & Big Block 750\u00ae Mixed",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali MixBass",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA MkCC+",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Mark IIC+\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali M2C+, CA M2C+",
+       "updatedInCorOs": "",
+       "replaces": "California 2C+ Clean & Lead"
+      },
+      {
+       "name": "CA MkIIIRed",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Mark III Red Stripe\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali M3Red, CA M3Red",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA PA-Sim290",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Stereo Simul-Class\u00ae 2:Ninety\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali PA-Sim290",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Quad+290",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Quad Preamp\u00ae + Mesa\u00ae Boogie\u00ae Stereo Simul-Class\u00ae 2:Ninety\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali Quad+290",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Studio+290",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Studio Preamp\u00ae + Mesa\u00ae Boogie\u00ae Stereo Simul-Class\u00ae 2:Ninety\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cali Studio+290",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Tremo Blues",
+       "basedOn": "Mesa Boogie\u00ae Trem-O-Verb\u00ae Red Blues",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Tremo Clean",
+       "basedOn": "Mesa Boogie\u00ae Trem-O-Verb\u00ae Orange Clean",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Tremo Modern",
+       "basedOn": "Mesa Boogie\u00ae Trem-O-Verb\u00ae Red Modern",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Tremo Vintage",
+       "basedOn": "Mesa Boogie\u00ae Trem-O-Verb\u00ae Orange Vintage",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chief Bass Overdrive",
+       "basedOn": "Boss\u00ae ODB-3\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Chief ODB3",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Comet 60",
+       "basedOn": "Komet\u00ae 60",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Corn Vixen",
+       "basedOn": "Cornford\u00ae Hellcat\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": "Comfort Feline"
+      },
+      {
+       "name": "Crank Rev1",
+       "basedOn": "Krank\u00ae Rev1",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Cravin X100",
+       "basedOn": "Carvin\u00ae X100B\u00ae Series IV",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Custom 3SE",
+       "basedOn": "Custom Audio Amplifier\u00ae 3+SE\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Custom 3SE+290",
+       "basedOn": "Custom Audio Amplifier\u00ae 3+SE\u00ae + Mesa\u00ae Boogie\u00ae Stereo Simul-Class\u00ae 2:Ninety\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell H4 Ch1",
+       "basedOn": "Diezel\u00ae VH4\u00ae Ch1",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell H4 Ch2",
+       "basedOn": "Diezel\u00ae VH4\u00ae Ch2",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell H4 Ch3",
+       "basedOn": "Diezel\u00ae VH4\u00ae Ch3",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell H4 Ch4",
+       "basedOn": "Diezel\u00ae VH4\u00ae Ch4",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell Herb",
+       "basedOn": "Diezel\u00ae Herbert\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell PA-6550",
+       "basedOn": "Diezel\u00ae Herbert\u00ae 6550\u00ae Power Amp",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Douglas AO900",
+       "basedOn": "Darkglass\u00ae Alpha\u00b7Omega 900\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Darkglass AO900",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Douglas AOU",
+       "basedOn": "Darkglass\u00ae Alpha\u00b7Omega Ultra\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Darkglass AOU",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Douglas B7K",
+       "basedOn": "Darkglass\u00ae B7K\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Darkglass B7K",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Douglas MT900V2",
+       "basedOn": "Darkglass\u00ae Microtubes 900\u00ae V2",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Darkglass MT900V2",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Douglas VMT",
+       "basedOn": "Darkglass\u00ae Vintage Microtubes\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Darkglass VMT",
+       "updatedInCorOs": "",
+       "replaces": "Darkglass\u00ae Vintage Microtubes\u00ae"
+      },
+      {
+       "name": "Douglas VMT+B7K",
+       "basedOn": "Darkglass\u00ae Vintage Microtubes\u00ae & B7K\u00ae Mixed",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Darkglass VMT+B7K",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Douglas VU",
+       "basedOn": "Darkglass\u00ae Vintage Ultra\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Darkglass VU",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "ENG Energy",
+       "basedOn": "ENGL\u00ae Powerball\u00ae Mark I",
+       "addedInCorOs": "1.0.0",
+       "previousName": "NGL Energy",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "ENG Marty's",
+       "basedOn": "ENGL\u00ae Inferno\u00ae Marty Friedman Signature",
+       "addedInCorOs": "1.0.0",
+       "previousName": "NGL Marty\u2019s",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "ENG PA-930",
+       "basedOn": "ENGL\u00ae Tube Poweramp\u00ae 930/60",
+       "addedInCorOs": "1.0.0",
+       "previousName": "NGL PA-930",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "ENG Rainbow",
+       "basedOn": "ENGL\u00ae Ritchie Blackmore Signature 100\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "NGL Rainbow",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Exotic BB",
+       "basedOn": "Xotic Effects\u00ae BB Preamp\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Exotic SL",
+       "basedOn": "Xotic Effects\u00ae SL Drive\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Fryed Sig10",
+       "basedOn": "Fryette\u00ae SigX\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Gametrader Magma",
+       "basedOn": "Gamechanger Audio\u00ae Plasma\u00ae",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Iba Green",
+       "basedOn": "Ibanez\u00ae Tube Screamer 9\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Iba TS9",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Iba Sonic Dist 9",
+       "basedOn": "Ibanez\u00ae Sonic Distortion 9\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Iba SD9",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "MadPro Golden",
+       "basedOn": "Mad Professor\u00ae Golden Cello\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "MadPro SimpleOD",
+       "basedOn": "Mad Professor\u00ae Simple Overdrive\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "MetalX M1K Clean",
+       "basedOn": "Metaltronix\u00ae M1000\u00ae Clean",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "MetalX M1K Stage1",
+       "basedOn": "Metaltronix\u00ae M1000\u00ae HiGain Stage 1",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "MetalX M1K Stage2",
+       "basedOn": "Metaltronix\u00ae M1000\u00ae HiGain Stage 2",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "MX BassFuzzDLX",
+       "basedOn": "MXR\u00ae Bass Fuzz Deluxe\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "MX ClassicOD",
+       "basedOn": "MXR\u00ae Classic Distortion\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "NoMatch Chief",
+       "basedOn": "Matchless\u00ae Chieftain\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "OMG PA-KT66",
+       "basedOn": "Omega Ampworks\u00ae KT66\u00ae Poweramp",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Paul's MT16",
+       "basedOn": "Paul Reed Smith\u00ae MT15",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Paul\u2019s MT15",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Pearce Billy",
+       "basedOn": "Pearce\u00ae BC1\u00ae Bass Preamp",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "PV 505Sig",
+       "basedOn": "Peavey\u00ae 5150\u00ae Signature",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Range AD200",
+       "basedOn": "Orange\u00ae AD200 Bass MK3\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Range Rock",
+       "basedOn": "Orange\u00ae Rocker\u00ae 30",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Range Rverb",
+       "basedOn": "Orange\u00ae Rockerverb\u00ae 100 MK3",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Range Rockverb",
+       "updatedInCorOs": "",
+       "replaces": "OG Crusherverb"
+      },
+      {
+       "name": "Range Stormverb",
+       "basedOn": "Orange\u00ae Thunderverb\u00ae 50",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Rodent+SV",
+       "basedOn": "ProCo\u00ae Rat\u00ae + Ampeg\u00ae SVT Classic\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Rat+SV",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Rodent+V5B",
+       "basedOn": "ProCo\u00ae Rat\u00ae + Ampeg\u00ae V-4B\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Rat+V4B",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "SCity B120",
+       "basedOn": "Sound City\u00ae B120\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "TeaBird",
+       "basedOn": "Antti\u00ae T-Bird\u00ae",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Tech41 BDDI",
+       "basedOn": "Tech21\u00ae Bass Driver DI\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Tech41 GED",
+       "basedOn": "Tech 21\u00ae SansAmp\u00ae Geddy Lee YYZ Preamp\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Tech41 PSA",
+       "basedOn": "Tech21\u00ae SansAmp\u00ae PSA\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Tech41 VTBassDLX",
+       "basedOn": "Tech21\u00ae VT Bass Deluxe\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "TuneRoyal MK2",
+       "basedOn": "Tone King\u00ae Imperial MKII\u00ae",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US HRDLX ChA",
+       "basedOn": "Fender\u00ae Hot Rod Deluxe\u00ae Channel A",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US HRDLX ChB",
+       "basedOn": "Fender\u00ae Hot Rod Deluxe\u00ae Channel B",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US HRDLX PA 6V6",
+       "basedOn": "Fender\u00ae Hot Rod Deluxe\u00ae Power Amp 6V6",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US Prince 65",
+       "basedOn": "Fender\u00ae Princeton\u00ae 65",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Prince 65",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "VHD PA-2502",
+       "basedOn": "VHT\u00ae Two/Fifty/Two\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Victor Marshal",
+       "basedOn": "Victory\u00ae Sheriff\u00ae 22",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Victor Mega Squid",
+       "basedOn": "Victory\u00ae Super Kraken\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Warwitch ProF5",
+       "basedOn": "Warwick\u00ae Pro Fet 5.1\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom 1959",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae 1959 Channel",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom Clean",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae Clean Channel",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom Jose",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae Jose Channel",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom LoMid1",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae Power Amp EL34 with LoMid1 engaged",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom LoMid2",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae Power Amp EL34 with LoMid2 engaged",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom LoMid3",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae Power Amp EL34 with LoMid3 engaged",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom Pre 1959",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae Preamp 1959",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom Pre Clean",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae Preamp Clean",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom Pre Jose",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae Preamp Jose",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom Pre VH",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae Preamp VH",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Custom VH",
+       "basedOn": "Hermansson Hiwatt\u00ae Custom PA100\u00ae VH Channel",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "guitar_amps",
+     "groupName": "Guitar amps",
+     "list": [
+      {
+       "name": "Bogna Uber Clean",
+       "basedOn": "Bogner\u00ae Uberschall\u00ae Rev. Blue",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna Uber Lead",
+       "basedOn": "Bogner\u00ae Uberschall\u00ae Rev. Blue",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bogna Vishnu 20th Clean",
+       "basedOn": "Bogner\u00ae Shiva\u00ae 20th Anniversary",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit 2203",
+       "basedOn": "Marshall\u00ae JCM800\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British 2203",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit 900 Clean",
+       "basedOn": "Marshall\u00ae JCM900\u00ae 4100",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British 900 Clean",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit 900 Lead",
+       "basedOn": "Marshall\u00ae JCM900\u00ae 4100",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British 900 Lead",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Plexi 100 Bright",
+       "basedOn": "Marshall\u00ae Super Lead 100\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Plexi 100 Bright",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Plexi 100 Normal",
+       "basedOn": "Marshall\u00ae Super Lead 100\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Plexi 100 Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Plexi 100 Patch",
+       "basedOn": "Marshall\u00ae Super Lead 100\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Plexi 100 Patch",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Plexi 50 Bright",
+       "basedOn": "Marshall\u00ae Lead 50\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Plexi 50 Bright",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Plexi 50 Normal",
+       "basedOn": "Marshall\u00ae Lead 50\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Plexi 50 Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Plexi 50 Patch",
+       "basedOn": "Marshall\u00ae Lead 50\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Plexi 50 Patch",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit TM45 Bright",
+       "basedOn": "Marshall\u00ae JTM 45\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British TM45 Bright",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit TM45 Normal",
+       "basedOn": "Marshall\u00ae JTM 45\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British TM45 Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit TM45 Patch",
+       "basedOn": "Marshall\u00ae JTM 45\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British TM45 Patch",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit UBL Lead",
+       "basedOn": "Marshall\u00ae Silver Jubilee\u00ae",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit UBL Lead Clip",
+       "basedOn": "Marshall\u00ae Silver Jubilee\u00ae",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 1Star Clean 100W Normal",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Lone Star\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "One Star Clean 100W Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 1Star Clean 100W Tweed",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Lone Star\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "One Star Clean 100W Tweed",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 1Star Clean 50W Normal",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Lone Star\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "One Star Clean 50W Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 1Star Clean 50W Tweed",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Lone Star\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "One Star Clean 50W Tweed",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 1Star Drive 100W Normal",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Lone Star\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "One Star Drive 100W Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 1Star Drive 100W Tweed",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Lone Star\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "One Star Drive 100W Tweed",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 1Star Drive 50W Normal",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Lone Star\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "One Star Drive 50W Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 1Star Drive 50W Tweed",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Lone Star\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "One Star Drive 50W Tweed",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Duo Ch3 Modern",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Dual Rectifier\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "California Ch3 Modern",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Duo Ch3 Raw",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Dual Rectifier\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "California Ch3 Raw",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Duo Ch3 Vintage",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Dual Rectifier\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "California Ch3 Vintage",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA John\u2019s 2C Ch1",
+       "basedOn": "Mesa\u00ae Boogie\u00ae JP2C\u00ae",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA John\u2019s 2C Ch2",
+       "basedOn": "Mesa\u00ae Boogie\u00ae JP2C\u00ae",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA John\u2019s 2C Ch3",
+       "basedOn": "Mesa\u00ae Boogie\u00ae JP2C\u00ae",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Tremo Orange",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Trem-O-Verb\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "California Tremo Orange",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA Tremo Red",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Trem-O-Verb\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "California Tremo Red",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Captain 50",
+       "basedOn": "Morgan\u00ae SW50\u00ae",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell H4 Ch1 Bright",
+       "basedOn": "Diezel\u00ae VH4\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell H4 Ch1 Normal",
+       "basedOn": "Diezel\u00ae VH4\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell H4 Ch2 Bright",
+       "basedOn": "Diezel\u00ae VH4\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell H4 Ch2 Normal",
+       "basedOn": "Diezel\u00ae VH4\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell H4 Ch3",
+       "basedOn": "Diezel\u00ae VH4\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell H4 Ch4",
+       "basedOn": "Diezel\u00ae VH4\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell Hisbert Ch1",
+       "basedOn": "Diezel\u00ae Herbert\u00ae",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell Hisbert Ch2",
+       "basedOn": "Diezel\u00ae Herbert\u00ae",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "D-Cell Hisbert Ch3",
+       "basedOn": "Diezel\u00ae Herbert\u00ae",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Dumbbell ODS",
+       "basedOn": "Dumble\u00ae Overdrive Special\u00ae",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "EV101IIIS Blue 6L6 100W",
+       "basedOn": "EVH\u00ae 5150 III\u00ae 100S\u00ae 6L6",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "EV101IIIS Blue EL34 100W",
+       "basedOn": "EVH\u00ae 5150 III\u00aeS EL34",
+       "addedInCorOs": "1.0.0",
+       "previousName": "EV101 III Blue",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "EV101IIIS Red 6L6 100W",
+       "basedOn": "EVH\u00ae 5150 III\u00ae 100S\u00ae 6L6",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "EV101IIIS Red EL34 100W",
+       "basedOn": "EVH\u00ae 5150 III\u00aeS EL34",
+       "addedInCorOs": "1.0.0",
+       "previousName": "EV101 III Red",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "Freeman 100 Clean",
+       "basedOn": "Friedman\u00ae HBE100\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "FreeBe 100 Clean",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Freeman 100 Lead",
+       "basedOn": "Friedman\u00ae HBE100\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "FreeBe 100 Lead",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Freeman 100 Rhythm",
+       "basedOn": "Friedman\u00ae HBE100\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "FreeBe 100 Rhythm",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Matchmore D30 Ch1",
+       "basedOn": "Matchless Amplifiers\u00ae DC30\u00ae Ch1",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Matchmore D30 Ch2",
+       "basedOn": "Matchless Amplifiers\u00ae DC30\u00ae Ch2",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Matchmore Jefe",
+       "basedOn": "Matchless Amplifiers\u00ae Chieftain\u00ae",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "PV-505 Lead",
+       "basedOn": "Peavey\u00ae 6505\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "PV-505 Rhythm",
+       "basedOn": "Peavey\u00ae 6505\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Rols Jazz CH120",
+       "basedOn": "Roland\u00ae Jazz Chorus 120\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Solo 100 Crunch Bright",
+       "basedOn": "Soldano\u00ae SLO\u00ae 100\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "Solo 100 Crunch Normal",
+       "basedOn": "Soldano\u00ae SLO\u00ae 100\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "Solo 100 Lead",
+       "basedOn": "Soldano\u00ae SLO\u00ae 100\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "UK C15 Normal",
+       "basedOn": "Vox\u00ae AC15\u00ae",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "UK C15 TopBoost",
+       "basedOn": "Vox\u00ae AC15\u00ae",
+       "addedInCorOs": "1.3.0",
+       "previousName": "UK C15 Boost",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "UK C30 Normal",
+       "basedOn": "Vox\u00ae AC30\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "UK C30 TopBoost",
+       "basedOn": "Vox\u00ae AC30\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "UK C30 Top Boost",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US DLX 64 Vintage",
+       "basedOn": "Fender\u00ae Deluxe Reverb \u201864 Vintage\u00ae",
+       "addedInCorOs": "3.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US DLX 65 Reissue",
+       "basedOn": "Fender\u00ae Deluxe Reverb \u201865 Reissue\u00ae",
+       "addedInCorOs": "3.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": "US DLX Normal & US DLX Vibrato"
+      },
+      {
+       "name": "US HP Tweed TWN Bright",
+       "basedOn": "Fender\u00ae High Power Tweed Twin 5F8-A\u00ae",
+       "addedInCorOs": "1.4.0",
+       "previousName": "US HP Tweed TWIN Bright",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US HP Tweed TWN Bright Patch",
+       "basedOn": "Fender\u00ae High Power Tweed Twin 5F8-A\u00ae",
+       "addedInCorOs": "1.4.0",
+       "previousName": "US HP Tweed TWIN Bright Jumped",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US HP Tweed TWN Normal",
+       "basedOn": "Fender\u00ae High Power Tweed Twin 5F8-A\u00ae",
+       "addedInCorOs": "1.4.0",
+       "previousName": "US HP Tweed TWIN Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US HP Tweed TWN Normal Patch",
+       "basedOn": "Fender\u00ae High Power Tweed Twin 5F8-A\u00ae",
+       "addedInCorOs": "1.4.0",
+       "previousName": "US HP Tweed TWIN Normal Jumped",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US Prince",
+       "basedOn": "Fender\u00ae Blackface Princeton Reverb\u00ae",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US SPR Normal",
+       "basedOn": "Fender\u00ae Super Reverb\u00ae \u201865",
+       "addedInCorOs": "1.0.0",
+       "previousName": "SUP RVB Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US SPR Vibrato",
+       "basedOn": "Fender\u00ae Super Reverb\u00ae \u201865",
+       "addedInCorOs": "1.0.0",
+       "previousName": "SUP RVB Vibrato",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US Tweed Basslad Bright",
+       "basedOn": "Fender\u00ae Bassman\u00ae Tweed",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US Tweed Basslad Bright Patch",
+       "basedOn": "Fender\u00ae Bassman\u00ae Tweed",
+       "addedInCorOs": "1.3.0",
+       "previousName": "US Tweed Basslad Bright Jumped",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US Tweed Basslad Normal",
+       "basedOn": "Fender\u00ae Bassman\u00ae Tweed",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US Tweed Basslad Normal Patch",
+       "basedOn": "Fender\u00ae Bassman\u00ae Tweed",
+       "addedInCorOs": "1.3.0",
+       "previousName": "US Tweed Basslad Normal Jumped",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US TWN Normal",
+       "basedOn": "Fender\u00ae Twin Reverb\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Double RVB Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "US TWN Vibrato",
+       "basedOn": "Fender\u00ae Twin Reverb\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Double RVB Vibrato",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Victor Squid Ch1",
+       "basedOn": "Victory Amps\u00ae Kraken\u00ae Ch1",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Victor Squid Ch2",
+       "basedOn": "Victory Amps\u00ae Kraken\u00ae Ch2",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt D103 Bright",
+       "basedOn": "Hiwatt\u00ae DR103\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt D103 Normal",
+       "basedOn": "Hiwatt\u00ae DR103\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "bass_amps",
+     "groupName": "Bass amps",
+     "list": [
+      {
+       "name": "Amped Flip-Top 6464",
+       "basedOn": "Ampeg\u00ae Heritage\u00ae B15N\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Bass Flip-Top 6464",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Amped Flip-Top 6466",
+       "basedOn": "Ampeg\u00ae Heritage\u00ae B15N\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Bass Flip-Top 6466",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Amped Flip-Top 6664",
+       "basedOn": "Ampeg\u00ae Heritage\u00ae B15N\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Bass Flip-Top 6664",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Amped Flip-Top 6666",
+       "basedOn": "Ampeg\u00ae Heritage\u00ae B15N\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Bass Flip-Top 6666",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Amped Super Valve",
+       "basedOn": "Ampeg\u00ae Heritage\u00ae SVT-CL\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Bass Super Valve",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Bass 50 Bright",
+       "basedOn": "Marshall\u00ae Super Bass\u00ae 50",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Bass 50 Bright",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Bass 50 Normal",
+       "basedOn": "Marshall\u00ae Super Bass\u00ae 50",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Bass 50 Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Bass 50 Patch",
+       "basedOn": "Marshall\u00ae Super Bass\u00ae 50",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Bass 50 Patch",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 400+ Ch1",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Bass 400+\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "California 400+ Ch1",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "CA 400+ Ch2",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Bass 400+\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "California 400+ Ch2",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "G800K",
+       "basedOn": "Gallien Krueger\u00ae 800RB\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Bass Mod Bright",
+       "basedOn": "Hiwatt\u00ae DR103\u00ae Mod",
+       "addedInCorOs": "1.0.0",
+       "previousName": "LoWatt Bass Mod Bright",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Watt Bass Mod Normal",
+       "basedOn": "Hiwatt\u00ae DR103\u00ae Mod",
+       "addedInCorOs": "1.0.0",
+       "previousName": "LoWatt Bass Mod Normal",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "guitar_cabinets",
+     "groupName": "Guitar cabinets",
+     "list": [
+      {
+       "name": "110 US PRN Brown FatJ 10s",
+       "basedOn": "Fender\u00ae Princeton\u00ae with FatJimmy\u00ae C1060 Drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "110 Fend Prince Brown FatJ 10s",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "110 US PRN C10R",
+       "basedOn": "Fender\u00ae Princeton\u00ae with Jensen\u00ae C10R drivers",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "110 US PRN Gold G10",
+       "basedOn": "Fender\u00ae Princeton\u00ae \u201cBrownface\u201d with Celestion\u00ae G10 Alnico Gold Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "112 Brit P-Series TX 33",
+       "basedOn": "Marshall\u00ae 1933 with Eminence\u00ae Patriot Series\u00ae Texas Heat\u00ae Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "112 UK C15 Blue",
+       "basedOn": "Vox\u00ae AC15\u00ae with Celestion\u00ae Alnico Blue drivers",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "112 US DLX Black C12K 00s",
+       "basedOn": "Fender\u00ae Deluxe\u00ae \u201cBlackface\u201d with Jensen\u00ae C12K drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "112 Fend Dlx Black C12K 00s",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "112 US DLX SC64",
+       "basedOn": "Fender\u00ae Deluxe\u00ae 1x12 Eminence\u00ae GA-SC64",
+       "addedInCorOs": "1.0.2",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "112 US DLX Tweed WGS-Q 10s",
+       "basedOn": "Fender\u00ae Deluxe\u00ae \u201cTweed\u201d with WGS\u00ae G12Q drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "112 Fend Dlx Tweed WGS-Q 10s",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "112 Zila MiniMod RB \u201917",
+       "basedOn": "Zilla\u00ae Mini Modern with Celestion\u00ae G12H150 Redback drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "210 US TRMLX Oxf \u201963",
+       "basedOn": "Fender\u00ae Tremolux\u00ae with Oxford\u00ae Alnico drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "210 Fend Tremolucs Oxf '63",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 CA Recto Legend V12",
+       "basedOn": "Mesa\u00ae Rectifier\u00ae 2x12 Legend V12",
+       "addedInCorOs": "1.0.2",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 CA Recto V30 \u201998",
+       "basedOn": "Mesa\u00ae Rectifier\u00ae with Celestion\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "212 Cali Recto V30 '98",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 Rols Jazz \u201987",
+       "basedOn": "Roland\u00ae JC-120\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 Sur V-type 10",
+       "basedOn": "Suhr\u00ae Cab with Celestion\u00ae V-Type drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "212 Sur V-type 10s",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 Too Rock EV",
+       "basedOn": "Two Rock\u00ae Open Back with ElectroVoice\u00ae EVM12L Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 Too Rock G65",
+       "basedOn": "Two Rock\u00ae Open Back with Celestion\u00ae G12-65 Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 Too Rock KM65",
+       "basedOn": "Two Rock\u00ae Open Back with K&M\u00ae 65 Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 UK C30 \u201965",
+       "basedOn": "VOX\u00ae AC30\u00ae Top Boost with Celestion\u00ae Alnico \u201cSilver Bell\u201d drivers",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 UK C30 GB \u201969",
+       "basedOn": "VOX\u00ae AC30\u00ae with Celestion\u00ae Pre-Rola Greenback Pulsonic drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 US A-type 00s",
+       "basedOn": "Fender\u00ae Cab with Celestion\u00ae A-Type 12\u201d drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "212 Fend A-type 00\u2019s",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 US Bleached Basslad V30 01",
+       "basedOn": "Fender Blonde Bassman\u00ae with Celestion\u00ae Vintage 30\u00ae Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 US TWN C12Q 00s",
+       "basedOn": "Fender\u00ae Twin Reverb\u00ae with Jensen\u00ae C12K-2 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "212 Fend TwinRev C12Q 00s",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 US TWN CK2",
+       "basedOn": "Fender\u00ae Twin Reverb\u00ae 2x12 Jensen C12K-2",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 US TWN Web Classic 08",
+       "basedOn": "Fender Tweed Twin\u00ae with Weber\u00ae Classic Alnico\u00ae Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 Zila CB \u201916",
+       "basedOn": "Zilla\u00ae Cab with Celestion\u00ae Creamback G12H-75 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 Zila Fatboy V30 '02",
+       "basedOn": "Zilla\u00ae Fatboy 2x12 2002 with Celestion\u00ae UK Vintage 30",
+       "addedInCorOs": "1.0.2",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 Zila Open CL80 19",
+       "basedOn": "Zilla\u00ae Open with Celestion\u00ae Classic Lead 80\u00ae Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 Zila Open G65 82",
+       "basedOn": "Zilla\u00ae Open with Celestion\u00ae G12-65\u00ae Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "212 Zila Open Gold \u201919",
+       "basedOn": "Zilla\u00ae Open with Celestion\u00ae Alnico Gold drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "410 US Basslad PR10",
+       "basedOn": "Fender\u00ae Bassman\u00ae Tweed with Jensen\u00ae P10R drivers",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Bogna Uber T75 00s",
+       "basedOn": "Bogner\u00ae Ubercab\u00ae with Celestion\u00ae T75 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Bogna Uber V30 00s",
+       "basedOn": "Bogner\u00ae Ubercab\u00ae with Celestion\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Brit 35B Alnico Cream",
+       "basedOn": "Marshall\u00ae 1935B\u00ae Alnico Cream",
+       "addedInCorOs": "1.0.2",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Brit 60A G75 80s",
+       "basedOn": "Marshall\u00ae 1960A\u00ae with Celestion\u00ae G12T-75\u00ae 80s Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Brit 60A GB75Hz \u201989",
+       "basedOn": "Marshall\u00ae 1960A\u00ae with Celestion\u00ae G12M25 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Brit 60A LB50 12",
+       "basedOn": "Marshall\u00ae 1960A\u00ae with Celestion\u00ae G12-50GL\u00ae Lynchback\u00ae Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Brit 60B GB \u201971",
+       "basedOn": "Marshall\u00ae 1960B\u00ae with Celestion\u00ae Pulsonic Greenback drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Brit 60B GB 90s",
+       "basedOn": "Marshall\u00ae 1960B\u00ae with Celestion\u00ae Greenback drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Brit 60B V30 \u201995",
+       "basedOn": "Marshall\u00ae 1960B\u00ae with Celestion\u00ae Marshall\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Brit Silver B 70w \u201987",
+       "basedOn": "Marshall\u00ae 2551B\u00ae with Celestion\u00ae drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Brit TV GB75Hz \u201969",
+       "basedOn": "Marshall\u00ae 1960TV\u00ae with Celestion\u00ae G12M25 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 CA Custom A Shadow 87",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Custom with Celestion\u00ae Black Shadow\u00ae Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 CA Dagger A V30 01",
+       "basedOn": "Mesa\u00ae Boogie\u00ae Stiletto\u00ae with Celestion\u00ae Vintage 30\u00ae Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 CA Stand OS A V30 \u201901",
+       "basedOn": "Mesa\u00ae Standard OS Angled with Celestion\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "412 Cali Stand OS A V30 '01",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 CA Stand OS A V30 '03",
+       "basedOn": "Mesa\u00ae Oversize Angle 2003 with Celestion\u00ae UK Vintage 30",
+       "addedInCorOs": "1.0.2",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 CA Stand OS S V30 90s",
+       "basedOn": "Mesa\u00ae Standard OS Straight with Celestion\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "412 Cali Stand OS S V30 90s",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 CA Trad A V30 \u201992",
+       "basedOn": "Mesa\u00ae Traditional Angled with Celestion\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "412 Cali Trad A V30 '92",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 CA Trad S H30 \u201915",
+       "basedOn": "Mesa\u00ae Traditional Straight with Celestion\u00ae G12H30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "412 Cali Trad S H30 '15",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 CA Trad S UKV30 90s",
+       "basedOn": "Mesa\u00ae Traditional Straight with Celestion\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "412 Cali Trad S UKV30 90s",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Cornfield V30",
+       "basedOn": "Cornford\u00ae RK412\u00ae with Celestion\u00ae Vintage 30 Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 D-Cell Front V30 \u201904",
+       "basedOn": "Diezel\u00ae Front Loaded with Celestion\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 ENG Pro V30 18",
+       "basedOn": "ENGL\u00ae V30\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "412 NGL Pro V30 '18",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 EV Straight G12 00s",
+       "basedOn": "EVH\u00ae Straight with Celestion\u00ae G12EVH drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Range PPC V30 \u201902",
+       "basedOn": "Orange\u00ae PPC412 with Celestion\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Range PPC V30 \u201903",
+       "basedOn": "Orange\u00ae PPC412 with Celestion\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 VH Fat P50",
+       "basedOn": "VHT\u00ae FatBottom\u00ae with Eminence\u00ae P50e\u00ae Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Watt S4123",
+       "basedOn": "Hiwatt\u00ae SE4123\u00ae 4x12",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Zila Cust V30 \u201912 V2",
+       "basedOn": "Zilla\u00ae Custom with Celestion\u00ae Vintage 30 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Match D30 Sig A",
+       "basedOn": "Matchless Amplifiers\u00ae DC30\u00ae Sig A",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Match D30 Sig B",
+       "basedOn": "Matchless Amplifiers\u00ae DC30\u00ae Sig B",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Match Jefe Sig 02",
+       "basedOn": "Matchless Amplifiers\u00ae Chieftain\u00ae Sig 02",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Match Jefe V30 02",
+       "basedOn": "Matchless Amplifiers\u00ae Chieftain\u00ae V30 02",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "bass_cabinets",
+     "groupName": "Bass cabinets",
+     "list": [
+      {
+       "name": "115 Amped Modern",
+       "basedOn": "Ampeg\u00ae SVT\u00ae 115HE\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "115 Amped VT Modern",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "210 Douglas Neo",
+       "basedOn": "Darkglass\u00ae DG212N\u00ae with custom Eminence\u00ae neodymium drivers",
+       "addedInCorOs": "1.3.0",
+       "previousName": "210 Darkglass\u00ae Neo",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "210C Douglas",
+       "basedOn": "Darkglass\u00ae D210C\u00ae with custom Eminence\u00ae ceramic drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "210C Darkglass\u00ae",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "410 Amped B410 90s",
+       "basedOn": "Ampeg\u00ae B410HE\u00ae with 90s Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "410 US Basslad P10Q \u201916",
+       "basedOn": "Fender\u00ae Bassman\u00ae with Jensen\u00ae P10Q drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "410 Fend Bassnam P10Q '16",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "412 Brit 35A GB55Hz \u201975",
+       "basedOn": "Marshall\u00ae 1935A\u00ae with Celestion\u00ae G12M25 drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "810 Amped VT 90s",
+       "basedOn": "Ampeg\u00ae SVT810\u00ae with 90s Eminence\u00ae Speakers",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "810 Amped VT Aln 70s",
+       "basedOn": "Ampeg\u00ae SVT\u00ae 810\u00ae with custom Eminence\u00ae ceramic drivers",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "guitar_overdrive",
+     "groupName": "Guitar overdrive",
+     "list": [
+      {
+       "name": "81 Creations Drive",
+       "basedOn": "1981 Inventions\u00ae DRV\u00ae",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Blues",
+       "basedOn": "Marshall\u00ae BluesBreaker\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Blues",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Brit Governor",
+       "basedOn": "Marshall\u00ae Guv\u2019nor\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "British Governor",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chief BD2",
+       "basedOn": "BOSS\u00ae BD-2\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chief DS1",
+       "basedOn": "BOSS\u00ae DS-1\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chief MT",
+       "basedOn": "BOSS\u00ae MT-2\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chief OD1",
+       "basedOn": "BOSS\u00ae OD-1\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chief SD1",
+       "basedOn": "BOSS\u00ae SD-1\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Exotic",
+       "basedOn": "Xotic\u00ae BB Preamp\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Exotic Z Boost",
+       "basedOn": "Xotic\u00ae RC Booster\u00ae",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Facial Fuzz",
+       "basedOn": "Dunlop\u00ae Fuzzface\u00ae",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Freeman BOD",
+       "basedOn": "Friedman\u00ae BE-OD\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Fuzz Pi",
+       "basedOn": "Electro-Harmonix\u00ae Big Muff Pi\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Green 808",
+       "basedOn": "Ibanez\u00ae TS808\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "MK3 Silicon Fuzz",
+       "basedOn": "JHS\u00ae Bender\u00ae 1973 London\u00ae",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Myth Drive",
+       "basedOn": "Klon\u00ae Centaur\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "No-Bell OD1",
+       "basedOn": "Nobels\u00ae ODR-1\u00ae",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Obsessive Drive",
+       "basedOn": "Fulltone\u00ae OCD\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Compulsive Drive",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "OD250",
+       "basedOn": "DOD\u00ae Overdrive Preamp 250\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Rage Booster",
+       "basedOn": "Dallas\u00ae Rangemaster\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Red Drive",
+       "basedOn": "Keeley Electronics\u00ae Red Dirt\u00ae",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Rodent Drive",
+       "basedOn": "ProCo\u00ae Rat\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Thunderpaw",
+       "basedOn": "Mr Black\u00ae Thunderclaw\u00ae",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Vemural Ray",
+       "basedOn": "Vemuram\u00ae Jan Ray\u00ae",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "bass_overdrive",
+     "groupName": "Bass overdrive",
+     "list": [
+      {
+       "name": "BDDI",
+       "basedOn": "Tech 21\u00ae Bass Driver DI\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Exotic Bass Z Boost",
+       "basedOn": "Xotic\u00ae RC Bass Booster\u00ae",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Douglas MT 3K",
+       "basedOn": "Darkglass\u00ae Microtubes B3K\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Microtubes B3K",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Douglas Vintage MT",
+       "basedOn": "Darkglass\u00ae Vintage Microtubes\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Microtubes VMT",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Soviet Fuzz",
+       "basedOn": "Electro-Harmonix\u00ae Russian Big Muff\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "delay",
+     "groupName": "Delay",
+     "list": [
+      {
+       "name": "Analog Delay",
+       "basedOn": "",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Slapback Delay",
+       "basedOn": "",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Digital Delay",
+       "basedOn": "",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Dual Delay",
+       "basedOn": "",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Dual Reverse Delay",
+       "basedOn": "",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Simple Ping Pong Delay",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Ping Pong Delay",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Reverse Delay",
+       "basedOn": "",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Simple Delay",
+       "basedOn": "",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Tape Delay",
+       "basedOn": "",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Circular Delay",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Arpeggio Delay",
+       "basedOn": "",
+       "addedInCorOs": "4.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Crystal Delay",
+       "basedOn": "",
+       "addedInCorOs": "4.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "reverb",
+     "groupName": "Reverb",
+     "list": [
+      {
+       "name": "Ambience",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Ambience Reverb",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Blossom (ST)",
+       "basedOn": "Inspired by Strymon\u00ae BigSky\u00ae Bloom mode",
+       "addedInCorOs": "4.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Cave",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Cave Reverb",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Hall",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Hall Reverb",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Mind Hall",
+       "basedOn": "",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Modulated",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Modulated Reverb",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Nordic Concert Hall (ST)",
+       "basedOn": "Inspired by Valhalla VintageVerb\u00ae Concert Hall mode",
+       "addedInCorOs": "4.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Plate",
+       "basedOn": "",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Plate Lush",
+       "basedOn": "",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Plate Tight",
+       "basedOn": "",
+       "addedInCorOs": "1.2.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Room",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Room Reverb",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Shimmer",
+       "basedOn": "",
+       "addedInCorOs": "1.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Spring (M)",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Spring Reverb",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Spring (ST)",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Spring Reverb",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Spring Reverb Engine (M)",
+       "basedOn": "",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Spring Reverb Engine (ST)",
+       "basedOn": "",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Studio Plate 70 (ST)",
+       "basedOn": "Lexicon\u00ae PCM70\u00ae Rich Plate programs",
+       "addedInCorOs": "4.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Vintage Digital",
+       "basedOn": "Oto Machines\u00ae Bam Space Generator",
+       "addedInCorOs": "4.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "compressor",
+     "groupName": "Compressor",
+     "list": [
+      {
+       "name": "Chief CS3",
+       "basedOn": "BOSS\u00ae CS-3\u00ae Compression Sustainer",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Jewel",
+       "basedOn": "Diamond\u00ae Compressor\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Jewel Comp",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Legendary 87",
+       "basedOn": "Universal Audio\u00ae 1176\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Legendary 87 (ST)",
+       "basedOn": "Universal Audio\u00ae 1176\u00ae",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Legendary 87 (S/C)",
+       "basedOn": "Universal Audio\u00ae 1176\u00ae",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Opto Comp",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Opto Comp (ST)",
+       "basedOn": "",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Opto Comp (S/C)",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Solid State Comp",
+       "basedOn": "SSL\u00ae Bus",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Solid State Comp (ST)",
+       "basedOn": "SSL\u00ae Bus",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Solid State Comp (S/C)",
+       "basedOn": "SSL\u00ae Bus",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "VCA Comp",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "VCA Comp (ST)",
+       "basedOn": "",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "VCA Comp (S/C)",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Douglas Shining Comp (M)",
+       "basedOn": "Darkglass Electronics\u00ae Hyper Luminal\u00ae",
+       "addedInCorOs": "4.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "pitch",
+     "groupName": "Pitch",
+     "list": [
+      {
+       "name": "Aggi Sub Octaver",
+       "basedOn": "Aguilar\u00ae Octamizer\u00ae",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chief OC2",
+       "basedOn": "BOSS\u00ae OC-2\u00ae",
+       "addedInCorOs": "3.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Minivoicer",
+       "basedOn": "",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Pitch Correction",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Pitch Shifter",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Poly Octaver",
+       "basedOn": "Electro-Harmonix\u00ae POG\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Subharmonic Synth",
+       "basedOn": "Digitech\u00ae DOD\u00ae Meatbox SubSynth\u00ae",
+       "addedInCorOs": "3.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Transpose",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Wham",
+       "basedOn": "Digitech\u00ae Whammy\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Multivoicer",
+       "basedOn": "A free version of the Multivoicer from Archetype: Tim Henson X",
+       "addedInCorOs": "4.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "modulation",
+     "groupName": "Modulation",
+     "list": [
+      {
+       "name": "Chief CE2W",
+       "basedOn": "BOSS\u00ae CE-2W\u00ae",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chief CE2W (M)",
+       "basedOn": "BOSS\u00ae CE-2W\u00ae",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chief DC2W",
+       "basedOn": "BOSS\u00ae DC-2W\u00ae Dimension",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chief DC2W (M)",
+       "basedOn": "BOSS\u00ae DC-2W\u00ae Dimension",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chorus 229T",
+       "basedOn": "TC Electronic\u00ae TC-2290\u00ae",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Chorus Engine",
+       "basedOn": "",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Digital Flanger",
+       "basedOn": "",
+       "addedInCorOs": "1.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Dream Chorus",
+       "basedOn": "TC Electronic\u00ae Dreamscape\u00ae",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Dream Chorus (M)",
+       "basedOn": "TC Electronic\u00ae Dreamscape\u00ae",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Dual Chorus",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Flanger Engine",
+       "basedOn": "",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Flangerish",
+       "basedOn": "",
+       "addedInCorOs": "1.1.0",
+       "previousName": "Flanger",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Harmonic Tremolo",
+       "basedOn": "",
+       "addedInCorOs": "3.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Micro Processor (ST)",
+       "basedOn": "Eventide\u00ae Micropitch Delay\u00ae",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "MX Flanger",
+       "basedOn": "MXR\u00ae Flanger M117R\u00ae",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "MX Phase 95",
+       "basedOn": "MXR\u00ae Phase 95\u00ae",
+       "addedInCorOs": "1.4.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "MX Vibes",
+       "basedOn": "MXR\u00ae UniVibe\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "NuVibes",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "Pattern Tremolo",
+       "basedOn": "",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Phaser",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "Rotary",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Tremolo",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Vibrato",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Vintage Chorus",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "morph",
+     "groupName": "Morph",
+     "list": [
+      {
+       "name": "Bit-Crusher (ST)",
+       "basedOn": "",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bit-Crusher Engine (M)",
+       "basedOn": "",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Freeze",
+       "basedOn": "",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Phase-Locked Loop",
+       "basedOn": "EarthQuaker Devices\u00ae Data Corrupter\u00ae",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Glitch",
+       "basedOn": "A free version of Glitch from Archetype: Misha Mansoor X",
+       "addedInCorOs": "4.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Ring Modulator",
+       "basedOn": "",
+       "addedInCorOs": "4.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "filter",
+     "groupName": "Filter",
+     "list": [
+      {
+       "name": "Env. Filter",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "3.1.0",
+       "replaces": ""
+      },
+      {
+       "name": "Env. filter (S/C)",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "3.1.0",
+       "replaces": ""
+      },
+      {
+       "name": "Foog",
+       "basedOn": "Moog\u00ae Moogerfooger\u00ae MF-101",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Love Meat",
+       "basedOn": "Lovetone\u00ae Meatball\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "eq",
+     "groupName": "EQ",
+     "list": [
+      {
+       "name": "Graphic-9",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "9 Band Graphic EQ",
+       "updatedInCorOs": "2.3.0",
+       "replaces": ""
+      },
+      {
+       "name": "Low-High Cut",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "Low-High Cut EQ",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Parametric-3",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "3 Band Parametric EQ",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Parametric-8",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "8 Band Parametric EQ",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Plugin Graphic-9",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Plugin Parametric-4",
+       "basedOn": "",
+       "addedInCorOs": "4.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "ir_loader",
+     "groupName": "IR loader",
+     "list": [
+      {
+       "name": "Dual (M)",
+       "basedOn": "",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Dual (M) Lite",
+       "basedOn": "",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Dual (ST)",
+       "basedOn": "",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Dual (ST) Lite",
+       "basedOn": "",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Single (M)",
+       "basedOn": "",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Single (M) Lite",
+       "basedOn": "",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Single (ST)",
+       "basedOn": "",
+       "addedInCorOs": "2.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Single (ST) Lite",
+       "basedOn": "",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "wah",
+     "groupName": "Wah",
+     "list": [
+      {
+       "name": "Auto Wah",
+       "basedOn": "",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bad Horse",
+       "basedOn": "Morley\u00ae Bad Horsie\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "Bass Wah",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Bubba Wah",
+       "basedOn": "Dunlop\u00ae Budda Budwah\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Crying Clyde Wah",
+       "basedOn": "Dunlop\u00ae Cry Baby\u00ae Clyde McCoy\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "McWah",
+       "updatedInCorOs": "2.0.0",
+       "replaces": ""
+      },
+      {
+       "name": "Crying Wah",
+       "basedOn": "Dunlop\u00ae Cry Baby\u00ae GCB-95\u00ae",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Crying Wah From Hell",
+       "basedOn": "Dunlop\u00ae Crybaby from Hell\u00ae",
+       "addedInCorOs": "3.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "looper",
+     "groupName": "Looper",
+     "list": [
+      {
+       "name": "Looper X",
+       "basedOn": "",
+       "addedInCorOs": "1.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "synth",
+     "groupName": "Synth",
+     "list": [
+      {
+       "name": "Mono Synth",
+       "basedOn": "A free and enhanced version of the Overlord Synth from Archetype: Rabea X",
+       "addedInCorOs": "3.3.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    },
+    {
+     "deviceType": "utility",
+     "groupName": "Utility",
+     "list": [
+      {
+       "name": "Adaptive Gate",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Adaptive Gate (S/C)",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Gain",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Simple Gate",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Utility Gate",
+       "basedOn": "",
+       "addedInCorOs": "1.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Volume",
+       "basedOn": "",
+       "addedInCorOs": "2.1.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Phase Doctor",
+       "basedOn": "Inspired by the Little Labs\u00ae IBP Phase Alignment Tool\u00ae",
+       "addedInCorOs": "4.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Plugin Gate",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Doubler",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Plugin Doubler",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Plugin Blend",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      },
+      {
+       "name": "Transparent Blend",
+       "basedOn": "",
+       "addedInCorOs": "3.0.0",
+       "previousName": "",
+       "updatedInCorOs": "",
+       "replaces": ""
+      }
+     ]
+    }
+   ],
+   "types": {
+    "neural-captures-v2": "Neural Captures V2",
+    "neural_captures_v1": "Neural Captures V1",
+    "guitar_amps": "Guitar amps",
+    "bass_amps": "Bass amps",
+    "guitar_cabinets": "Guitar cabinets",
+    "bass_cabinets": "Bass cabinets",
+    "guitar_overdrive": "Guitar overdrive",
+    "bass_overdrive": "Bass overdrive",
+    "delay": "Delay",
+    "reverb": "Reverb",
+    "compressor": "Compressor",
+    "pitch": "Pitch",
+    "modulation": "Modulation",
+    "morph": "Morph",
+    "filter": "Filter",
+    "eq": "EQ",
+    "ir_loader": "IR loader",
+    "wah": "Wah",
+    "looper": "Looper",
+    "synth": "Synth",
+    "utility": "Utility",
+    "plugin-devices": "Plugin devices"
+   },
+   "deviceList": [
+    {
+     "deviceCategory": "Compressor",
+     "name": "Plini Comp",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "name": "Plini Octaver",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Plini Drive",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Plini Pre Delay (M)",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Plini Clean",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Plini Crunch",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Plini Lead",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Plini Cab (M) & (ST)",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Plini Chorus",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Plini Delay (ST)",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Plini Reverb",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Plini X",
+     "url": "https://neuraldsp.com/plugins/archetype-plini"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "name": "Gojira WOW",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "name": "Gojira OCT",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Gojira OD",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Gojira DRT",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Gojira PHSR",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Gojira CHR",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Gojira CLN",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Gojira RST",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Gojira HOT",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Gojira Cab 1 (M) & (ST)",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Gojira Cab 2 (M) & (ST)",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Gojira Cab 3 (M) & (ST)",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Gojira DLY (ST)",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Gojira REV",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Gojira REV Shimmer",
+     "addedInCorOs": "3.0.0",
+     "requiredPlugin": "Archetype: Gojira X",
+     "url": "https://neuraldsp.com/plugins/archetype-gojira"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "SLO-100 Compressor",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Soldano SLO-100 X",
+     "url": "https://neuraldsp.com/plugins/soldano-slo-100"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "SLO-100 Overdrive-1",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Soldano SLO-100 X",
+     "url": "https://neuraldsp.com/plugins/soldano-slo-100"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "SLO-100 Overdrive-2",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Soldano SLO-100 X",
+     "url": "https://neuraldsp.com/plugins/soldano-slo-100"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "SLO-100 Chorus",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Soldano SLO-100 X",
+     "url": "https://neuraldsp.com/plugins/soldano-slo-100"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Soldano\u00ae SLO-100\u00ae",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Soldano SLO-100 X",
+     "url": "https://neuraldsp.com/plugins/soldano-slo-100"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "SLO-100 Cab (M) & (ST)",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Soldano SLO-100 X",
+     "url": "https://neuraldsp.com/plugins/soldano-slo-100"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "SLO-100 Delay",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Soldano SLO-100 X",
+     "url": "https://neuraldsp.com/plugins/soldano-slo-100"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "SLO-100 Reverb",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Soldano SLO-100 X",
+     "url": "https://neuraldsp.com/plugins/soldano-slo-100"
+    },
+    {
+     "deviceCategory": "Utility",
+     "name": "Nameless Zuul",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Fortin Nameless Suite X",
+     "url": "https://neuraldsp.com/plugins/fortin-nameless-suite"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Nameless Hexdrive",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Fortin Nameless Suite X",
+     "url": "https://neuraldsp.com/plugins/fortin-nameless-suite"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Nameless Grind",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Fortin Nameless Suite X",
+     "url": "https://neuraldsp.com/plugins/fortin-nameless-suite"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Fortin\u00ae Nameless",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Fortin Nameless Suite X",
+     "url": "https://neuraldsp.com/plugins/fortin-nameless-suite"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Nameless Cab (M) & (S)",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Fortin Nameless Suite X",
+     "url": "https://neuraldsp.com/plugins/fortin-nameless-suite"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Nameless Delay",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Fortin Nameless Suite X",
+     "url": "https://neuraldsp.com/plugins/fortin-nameless-suite"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Nameless Reverb",
+     "addedInCorOs": "3.1.0",
+     "requiredPlugin": "Fortin Nameless Suite X",
+     "url": "https://neuraldsp.com/plugins/fortin-nameless-suite"
+    },
+    {
+     "deviceCategory": "Wah",
+     "name": "Cory Wong Wah",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Filter",
+     "name": "Cory Wong The Postal Service",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "Cory Wong The 4th Position Compressor",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Cory Wong The Tuber",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Cory Wong The Big Rig Overdrive",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Cory Wong D.I. Funk Console",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Cory Wong The Clean Machine",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Cory Wong The Amp Snob",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cory Wong Cab 1 (M) & (ST)",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cory Wong Cab 2 (M) & (ST)",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cory Wong Cab 3 (M) & (ST)",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Cory Wong The 80s",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Cory Wong Delay-y-y",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Cory Wong The Wash",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Cory Wong The Wash Shimmer",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Cory Wong X",
+     "url": "https://neuraldsp.com/plugins/archetype-cory-wong"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "Nolly Compressor",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Nolly Overdrive-1",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Nolly Delay-1 (M)",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Nolly Overdrive-2",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Nolly Clean",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Nolly Crunch",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Nolly Rhythm",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Nolly Lead",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Nolly Cab 1 (M) & (ST)",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Nolly Cab 2 (M) & (ST)",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Nolly Cab 3 (M) & (ST)",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Nolly Cab 4 (M) & (ST)",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "EQ",
+     "name": "Nolly Graphic-9",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Nolly Delay-2",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Nolly Reverb",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Archetype: Nolly X",
+     "url": "https://neuraldsp.com/plugins/archetype-nolly"
+    },
+    {
+     "deviceCategory": "Bass overdrive",
+     "name": "Parallax",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Parallax X",
+     "url": "https://neuraldsp.com/plugins/parallax"
+    },
+    {
+     "deviceCategory": "Bass cabinets",
+     "name": "Parallax Cab (M) & (ST)",
+     "addedInCorOs": "3.2.0",
+     "requiredPlugin": "Parallax X",
+     "url": "https://neuraldsp.com/plugins/parallax"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Justa Boost",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Filter",
+     "name": "Antelope Filter",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Halfman OD",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Tealbreaker",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Millipede Delay",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Harmonic Tremolo",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Spring Reverb",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Smooth Operator",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Headroom Hero",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Signature 83",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Three-In-One",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Smooth Operator Cab",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Headroom Hero Cab",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Signature 83 Cab",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "Compressor",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Dream Delay (ST)",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Studio Verb Hall",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Studio Verb Plate",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: John Mayer X",
+     "url": "https://neuraldsp.com/plugins/archetype-john-mayer"
+    },
+    {
+     "deviceCategory": "Wah",
+     "name": "Wah",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "Compressor",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Overdrive",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Phaser",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Chorus 1",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Flanger",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Piezo",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Clean",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Rhythm",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Lead",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cab",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Utility",
+     "name": "Volume",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Chorus 2",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Delay",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Reverb",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Reverb Shimmer",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Petrucci X",
+     "url": "https://neuraldsp.com/plugins/archetype-petrucci"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "name": "Laser",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "Horizon Devices\u00ae Compressor\u2122",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Tape Echo",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "name": "Dual Octaver",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Horizon Devices\u00ae Precision Drive\u2122",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Chaos",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Clean Amp",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Rhythm Amp",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Lead Amp",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cab 1",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cab 2",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cab 3",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Modulator",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Stereo Delay",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Reverb",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Reverb Shimmer",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Misha Mansoor X",
+     "url": "https://neuraldsp.com/plugins/archetype-misha-mansoor"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "Twin Blade Dual Compressor",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Pitch",
+     "name": "Chaos Bed Octaver",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Colossus Fuzz",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Paragon Overdrive",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Clean Amp",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Crunch Amp",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Lead Amp",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cab 1",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cab 2",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cab 3",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Atlas Delay",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Aeons Reverb",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Rabea X",
+     "url": "https://neuraldsp.com/plugins/archetype-rabea"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Boost",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Compressor",
+     "name": "Compressor",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Guitar overdrive",
+     "name": "Overdrive",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Acoustic Amp",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Crunch Amp Ch1",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Crunch Amp Ch2",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Guitar amps",
+     "name": "Lead Amp",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cab 1",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Guitar cabinets",
+     "name": "Cab 2",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Modulation",
+     "name": "Chorus",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Diffusion Delay",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Vintage Digital Delay",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Delay",
+     "name": "Modern Delay",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Reverb",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    },
+    {
+     "deviceCategory": "Reverb",
+     "name": "Reverb Shimmer",
+     "addedInCorOs": "4.1.0",
+     "requiredPlugin": "Archetype: Tim Henson X",
+     "url": "https://neuraldsp.com/plugins/archetype-tim-henson"
+    }
+   ]
+  },
+  "__N_SSG": true
+ },
+ "page": "/device-list",
+ "query": {},
+ "buildId": "_gaKoiCsJaYFmP_SduCkN",
+ "isFallback": false,
+ "gsp": true,
+ "locale": "intl",
+ "locales": [
+  "intl",
+  "eu",
+  "gb",
+  "us"
+ ],
+ "defaultLocale": "intl",
+ "scriptLoader": []
+}

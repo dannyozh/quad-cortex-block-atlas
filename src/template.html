@@ -1,0 +1,332 @@
+<title>Quad Cortex Block Atlas</title>
+<meta name="color-scheme" content="light dark">
+<script>try{const t=localStorage.getItem("qc-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  color-scheme:light dark;
+  /* Every color is declared once. The switch only flips color-scheme. */
+  --ground:light-dark(#ECEEEA,#121416);
+  --surface:light-dark(#FAFBF8,#1A1D20);
+  --surface-2:light-dark(#E2E5E0,#24282C);
+  --ink:light-dark(#1A1D21,#E6E8E4);
+  --muted:light-dark(#5B6168,#9AA1A8);
+  --rule:light-dark(#D3D7D1,#2F3438);
+
+  --accent:light-dark(#0B7A83,#3FB8C1);
+  --accent-ink:light-dark(#FFFFFF,#0B1214);
+  --new:light-dark(#C2410C,#FB923C);
+  --new-bg:light-dark(#FCE9DE,#3A2114);
+  --plug:light-dark(#6D4AA8,#B69CF0);
+  --plug-bg:light-dark(#EEE7F8,#2A2238);
+
+  --c-amp:light-dark(#C2410C,#FB923C);
+  --c-cab:light-dark(#8A6D3B,#D4B07A);
+  --c-drive:light-dark(#B91C1C,#F87171);
+  --c-dyn:light-dark(#0B7A83,#3FB8C1);
+  --c-mod:light-dark(#4F46E5,#A5B4FC);
+  --c-time:light-dark(#0369A1,#7DD3FC);
+  --c-pitch:light-dark(#A21CAF,#F0ABFC);
+  --c-util:light-dark(#52606D,#A3B1BE);
+  --c-cap:light-dark(#15803D,#4ADE80);
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+:root[data-theme="light"]{color-scheme:light}
+:root[data-theme="dark"]{color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font:15px/1.55 var(--body);margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:0 64px}
+header.top{padding-block:24px 12px;display:grid;gap:10px}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:700 clamp(34px,5vw,52px)/.95 var(--display);letter-spacing:-.01em;margin:0;text-wrap:balance;text-transform:uppercase}
+h1 .fw{color:var(--accent)}
+.lede{max-width:68ch;color:var(--muted);margin:0}
+.lede b{color:var(--ink);font-weight:600}
+.stats{display:flex;flex-wrap:wrap;gap:8px 24px;font:500 13px/1.3 var(--mono);color:var(--muted)}
+.stats strong{color:var(--ink);font-weight:500}
+
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--ground);border-bottom:1px solid var(--rule);padding-block:12px;display:grid;gap:10px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+#q{flex:1 1 260px;min-width:0;font:15px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:10px 12px}
+#q:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.toggle{font:500 13px var(--body);display:inline-flex;gap:6px;align-items:center;color:var(--muted);cursor:pointer;user-select:none}
+.toggle input{accent-color:var(--accent)}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding-bottom:2px}
+.chip{flex:none;font:600 14px/1 var(--display);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rule);background:var(--surface);color:var(--ink);padding:7px 10px;border-radius:999px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.chip[aria-selected="true"]{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+.chip small{font:500 11px var(--mono);opacity:.7;letter-spacing:0}
+
+.guide{display:grid;grid-template-columns:1fr;align-items:start;gap:6px;margin-block:12px 0}
+.guide details{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:8px 14px}
+.guide summary{cursor:pointer;font:600 17px var(--display);letter-spacing:.04em;text-transform:uppercase}
+.guide dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:12px 0 4px;font-size:14px}
+.guide dt{font:500 13px var(--mono);color:var(--accent)}
+.guide dd{margin:0;color:var(--muted)}
+.guide p{font-size:14px;color:var(--muted);margin:10px 0 4px}
+
+section.cat{margin-top:20px;scroll-margin-top:130px}
+.cat-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;border-bottom:2px solid var(--c);padding-bottom:8px}
+.cat-head h2{font:700 30px/1 var(--display);text-transform:uppercase;letter-spacing:.02em;margin:0}
+.cat-head .n{font:500 13px var(--mono);color:var(--muted)}
+.cat-head p{flex-basis:100%;margin:2px 0 0;color:var(--muted);font-size:14px;max-width:80ch}
+h3.sub{font:600 15px var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:14px 0 2px}
+
+.list{display:grid}
+.dev{display:grid;grid-template-columns:minmax(160px,1fr) minmax(150px,1fr) 2.6fr 52px;gap:2px 16px;padding-block:6px;border-bottom:1px solid var(--rule);align-items:baseline}
+.dev .nm{font-weight:600;font-size:14.5px;line-height:1.35;display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}
+.dev .bo{font-size:13.5px;line-height:1.4}
+.dev .bo.none{color:var(--muted);font-style:italic}
+.dev .ds{font-size:13.5px;line-height:1.45;color:var(--muted)}
+.dev .ds em{font-style:normal;color:var(--ink)}
+.dev .v{font:400 12px var(--mono);color:var(--muted);text-align:right;white-space:nowrap}
+.tag{font:600 10.5px/1 var(--mono);letter-spacing:.04em;padding:3px 5px;border-radius:3px;text-transform:uppercase;white-space:nowrap}
+.tag.new{background:var(--new-bg);color:var(--new)}
+.tag.plug{background:var(--plug-bg);color:var(--plug)}
+.head-row{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-block:8px;border-bottom:1px solid var(--rule)}
+.head-row .v{text-align:right}
+.head-row .ds{color:inherit}
+.hint{font-size:12.5px;color:var(--muted);min-height:1em}
+.empty{padding:40px 0;color:var(--muted);text-align:center}
+footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--rule);font-size:13px;color:var(--muted);display:grid;gap:6px}
+footer a{color:var(--accent)}
+.plugmeta{font-size:14px;color:var(--muted);margin:4px 0 0}
+.plugmeta a{color:var(--plug)}
+
+/* Toggles row: group the checkboxes so they wrap as one unit */
+.toggles{display:flex;flex-wrap:wrap;gap:6px 16px}
+.chip{min-height:34px}
+
+/* Tablet: name | modeled on | added, description full width underneath */
+@media (max-width:1024px){
+  .wrap{padding-inline:16px}
+  .dev{grid-template-columns:minmax(0,1fr) minmax(0,1fr) 44px;gap:2px 14px;padding-block:8px}
+  .dev .ds{grid-column:1 / -1}
+  .dev .v{grid-row:1;grid-column:3}
+  .head-row .ds{display:none}
+}
+
+/* Phone: stacked rows, slimmer sticky bar */
+@media (max-width:640px){
+  body{font-size:14.5px}
+  header.top{padding-block:16px 8px;gap:8px}
+  .lede{font-size:14px}
+  .stats{gap:4px 14px;font-size:12px}
+  .bar{padding-block:8px;gap:8px}
+  #q{font-size:16px;padding:9px 11px;flex-basis:100%} /* 16px stops iOS zooming on focus */
+  .toggles{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;gap:14px;width:100%}
+  .toggles::-webkit-scrollbar{display:none}
+  .toggle{flex:none;font-size:13px;min-height:28px}
+  .toggle input{width:18px;height:18px}
+  .chips{scrollbar-width:none;margin-inline:-16px;padding-inline:16px;scroll-padding-inline:16px}
+  .chips::-webkit-scrollbar{display:none}
+  .hint{display:none}
+  .dev{grid-template-columns:minmax(0,1fr) auto;gap:3px 12px;padding-block:10px}
+  .dev .nm{grid-column:1}
+  .dev .v{grid-column:2;grid-row:1}
+  .dev .bo,.dev .ds{grid-column:1 / -1}
+  .dev .bo{font-size:13px}
+  .dev .ds{font-size:13.5px}
+  .head-row{display:none}
+  .cat-head h2{font-size:26px}
+  .cat-head p{font-size:13px}
+  .guide summary{font-size:16px;padding-block:2px}
+  .guide dl{font-size:13px}
+  footer{margin-top:36px;font-size:12px}
+}
+/* Theme switch: a role=switch button; all visual state hangs off aria-checked */
+.top-row{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.theme{
+  --w:56px; --h:30px; --pad:3px; --knob:calc(var(--h) - 2*var(--pad) - 2px);
+  position:relative;flex:none;inline-size:var(--w);block-size:var(--h);padding:0;
+  display:grid;grid-template-columns:1fr 1fr;place-items:center;
+  border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--muted);cursor:pointer;
+}
+.theme:hover{border-color:color-mix(in oklab,var(--accent) 55%,var(--rule))}
+.theme svg{position:relative;z-index:1;inline-size:15px;block-size:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.theme .moon{fill:currentColor;stroke:none}
+.theme .thumb{position:absolute;inset-block-start:var(--pad);inset-inline-start:var(--pad);inline-size:var(--knob);block-size:var(--knob);border-radius:50%;background:var(--ink);box-shadow:0 1px 2px rgb(0 0 0 / .25)}
+.theme[aria-checked="true"] .thumb{translate:calc(var(--w) - var(--knob) - 2*var(--pad) - 2px) 0}
+.theme[aria-checked="false"] .sun,.theme[aria-checked="true"] .moon{color:var(--ground)}
+@media (forced-colors:active){ .theme .thumb{background:CanvasText} .theme[aria-checked="false"] .sun,.theme[aria-checked="true"] .moon{color:Canvas} }
+
+/* Circular reveal: JS drives the clip-path; here we just switch off the default crossfade */
+::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}
+
+@media (prefers-reduced-motion:no-preference){
+  html{scroll-behavior:smooth}
+  .theme .thumb{transition:translate .32s cubic-bezier(.34,1.4,.5,1)}
+  .theme svg{transition:color .2s}
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="top-row">
+      <div class="eyebrow">Quad Cortex &amp; Quad Cortex mini · CorOS 4.1.0 · released 25 Aug 2026</div>
+      <button class="theme" id="theme" type="button" role="switch" aria-checked="false" aria-label="Dark mode" title="Toggle dark mode">
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7Z"/></svg>
+        <span class="thumb" aria-hidden="true"></span>
+      </button>
+    </div>
+    <h1>Quad Cortex <span class="fw">Block Atlas</span></h1>
+    <p class="lede">Every virtual device you can drop into a block on the grid, with <b>the real gear it's modeled on</b> and <b>what it's good for</b>. The mini runs the same CorOS and the same device library as the full-size Quad Cortex.</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="bar">
+    <div class="row">
+      <input id="q" type="search" placeholder="Search names, gear, uses (e.g. Klon, JCM800, shimmer, bass)" aria-label="Search devices" autocomplete="off">
+      <div class="toggles">
+        <label class="toggle"><input type="checkbox" id="onlyNew"> New in 4.1.0 only</label>
+        <label class="toggle"><input type="checkbox" id="showPlug" checked> Plugin devices</label>
+        <label class="toggle"><input type="checkbox" id="showCap" checked> Factory captures</label>
+      </div>
+    </div>
+    <div class="chips" id="chips" role="tablist" aria-label="Category"></div>
+    <div class="hint" id="hint"></div>
+  </div>
+
+  <div class="guide">
+    <details name="guide">
+      <summary>Reading the names</summary>
+      <p>Neural DSP renames real brands. The common prefixes:</p>
+      <dl id="prefixes"></dl>
+    </details>
+    <details name="guide">
+      <summary>Suffixes &amp; tags</summary>
+      <dl>
+        <dt>(M)</dt><dd>Mono version, lighter on DSP.</dd>
+        <dt>(ST)</dt><dd>Stereo version, for stereo rigs or wide time effects.</dd>
+        <dt>(S/C)</dt><dd>Sidechain version: a second input (another row or input) controls it, e.g. ducking or keyed gating.</dd>
+        <dt>Patch</dt><dd>Both input channels jumpered together, the classic "jumped" vintage Marshall/Fender trick for a fatter, hotter tone.</dd>
+        <dt>Lite</dt><dd>IR loader without the built-in room reverb, so it uses less DSP.</dd>
+        <dt><span class="tag new">New 4.1</span></dt><dd>Added in CorOS 4.1.0.</dd>
+        <dt><span class="tag plug">Plugin</span></dt><dd>Only loads if you own that Neural DSP plugin licence, linked to your account.</dd>
+      </dl>
+    </details>
+    <details name="guide">
+      <summary>Also new in 4.1.0</summary>
+      <p><b>Device Presets:</b> save and recall settings for any single amp or effect, with 2,000+ factory Device Presets from Neural DSP.</p>
+      <p><b>Archetype X plugins on the unit:</b> John Mayer, Petrucci, Misha Mansoor, Rabea and Tim Henson X add 70+ amps, cabs and effects if you own the licence.</p>
+      <p><b>Changes:</b> Mono Synth is now called Overlord Synth. Doubler and Plugin Doubler gain an INPUT three-way switch. Plugin Blend and Transparent Blend gain a BLEND LEVEL knob.</p>
+    </details>
+  </div>
+
+  <main id="out"></main>
+
+  <footer>
+    <div>Device names, "based on" credits and the CorOS version each device was added in come from Neural DSP's official <a href="https://neuraldsp.com/device-list" target="_blank" rel="noopener">device list</a> and the <a href="https://neuraldsp.com/quad-cortex-updates/coros-and-cortex-control-4-1-0-are-now-available" target="_blank" rel="noopener">CorOS 4.1.0 release notes</a>, both checked on 23 Sep 2026. The usage descriptions are editorial.</div>
+    <div>All product names are trademarks of their owners. Neural DSP uses them only to identify the gear its models were based on, and it has no affiliation with those companies.</div>
+  </footer>
+</div>
+
+<script>
+const DATA = /*DATA*/;
+const PREFIXES = [
+  ["Brit","Marshall"],["CA","Mesa/Boogie"],["US","Fender"],["UK","Vox"],["Chief","BOSS"],["Amped","Ampeg"],
+  ["D-Cell","Diezel"],["Bogna","Bogner"],["Freeman","Friedman"],["EV","EVH"],["PV","Peavey"],["Solo","Soldano"],
+  ["Watt","Hiwatt"],["Rols","Roland"],["Matchmore / Match","Matchless"],["Victor","Victory"],["Douglas","Darkglass"],
+  ["Zila","Zilla"],["Range","Orange"],["ENG","ENGL"],["MX","MXR"],["Exotic","Xotic"],["Love","Lovepedal"],["Legendary 87","UA 1176"]
+];
+const $ = s => document.querySelector(s);
+
+// Theme. With no saved choice, follow the OS live; once clicked, the choice sticks (localStorage).
+{
+  const root = document.documentElement, sw = $("#theme");
+  const osDark = matchMedia("(prefers-color-scheme: dark)");
+  const calm = matchMedia("(prefers-reduced-motion: reduce)");
+  const isDark = () => (root.dataset.theme ?? (osDark.matches ? "dark" : "light")) === "dark";
+  const sync = () => sw.setAttribute("aria-checked", String(isDark()));
+  osDark.addEventListener("change", () => { if (!root.dataset.theme) sync(); });
+  sw.addEventListener("click", () => {
+    const next = isDark() ? "light" : "dark";
+    try { localStorage.setItem("qc-theme", next); } catch (e) {}
+    const apply = () => { root.dataset.theme = next; sync(); };
+    if (!document.startViewTransition || calm.matches) return apply();
+    const r = sw.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2;
+    const end = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
+    document.startViewTransition(apply).ready.then(() => root.animate(
+      { clipPath: [`circle(0 at ${x}px ${y}px)`, `circle(${end}px at ${x}px ${y}px)`] },
+      { duration: 480, easing: "cubic-bezier(.2,.7,.2,1)", pseudoElement: "::view-transition-new(root)" }
+    ));
+  });
+  sync();
+}
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+$("#prefixes").innerHTML = PREFIXES.map(([a,b]) => `<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join("");
+
+// Stats
+const all = DATA.sections.flatMap(s => s.groups.flatMap(g => g.items));
+const count = f => all.filter(f).length;
+$("#stats").innerHTML = [
+  [count(d => d.kind === "core"), "core devices"],
+  [count(d => d.kind === "cap"), "factory captures"],
+  [count(d => d.kind === "plug"), "plugin devices"],
+  [count(d => d.isNew), "new in 4.1.0"]
+].map(([n, l]) => `<span><strong>${n}</strong> ${l}</span>`).join("");
+
+// Tabs
+let active = "amps";
+try { active = localStorage.getItem("qc-tab") || active; } catch (e) {}
+if (!DATA.sections.some(s => s.id === active)) active = "amps";
+$("#chips").innerHTML = DATA.sections.map(s =>
+  `<button class="chip" type="button" role="tab" id="tab-${s.id}" data-target="${s.id}" style="--c:var(${s.color})"><span class="dot"></span>${esc(s.title)} <small id="cc-${s.id}"></small></button>`
+).join("");
+$("#chips").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  active = b.dataset.target;
+  try { localStorage.setItem("qc-tab", active); } catch (e) {}
+  $("#q").value = ""; $("#onlyNew").checked = false;
+  render();
+  window.scrollTo({top: Math.min(window.scrollY, $(".bar").offsetTop)});
+});
+
+function row(d){
+  const tags = (d.isNew ? `<span class="tag new">New 4.1</span>` : "") + (d.kind === "plug" ? `<span class="tag plug">Plugin</span>` : "");
+  const bo = d.basedOn ? `<div class="bo">${esc(d.basedOn)}</div>` : `<div class="bo none">${d.kind === "plug" ? "Plugin original" : "Neural DSP original"}</div>`;
+  const prev = d.prev ? ` <em>Formerly “${esc(d.prev)}”.</em>` : "";
+  return `<div class="dev"><div class="nm">${esc(d.name)} ${tags}</div>${bo}<div class="ds">${esc(d.desc)}${prev}</div><div class="v">${esc(d.added)}</div></div>`;
+}
+const HEAD = `<div class="dev head-row"><div>Device</div><div>Modeled on</div><div class="ds">What it's for</div><div class="v">Added</div></div>`;
+
+function render(){
+  const q = $("#q").value.trim().toLowerCase();
+  const terms = q.split(/\s+/).filter(Boolean);
+  const onlyNew = $("#onlyNew").checked, showPlug = $("#showPlug").checked, showCap = $("#showCap").checked;
+  const searching = terms.length > 0 || onlyNew;
+  if ((active === "plugins" && !showPlug) || (active === "caps" && !showCap)) active = "amps";
+  let html = "", total = 0;
+  for (const s of DATA.sections){
+    const hiddenKind = (s.kind === "plug" && !showPlug) || (s.kind === "cap" && !showCap);
+    let body = "", n = 0;
+    for (const g of s.groups){
+      const items = hiddenKind ? [] : g.items.filter(d => (!onlyNew || d.isNew) && terms.every(t => d.hay.includes(t)));
+      if (!items.length) continue;
+      n += items.length;
+      body += (g.title ? `<h3 class="sub">${esc(g.title)}</h3>` : "") + (g.meta ? `<p class="plugmeta">${g.meta}</p>` : "") + `<div class="list">${HEAD}${items.map(row).join("")}</div>`;
+    }
+    const tab = document.getElementById("tab-" + s.id);
+    document.getElementById("cc-" + s.id).textContent = n;
+    tab.hidden = n === 0;
+    tab.setAttribute("aria-selected", String(!searching && s.id === active));
+    if (!n || (!searching && s.id !== active)) continue;
+    total += n;
+    html += `<section class="cat" id="${s.id}" style="--c:var(${s.color})"><div class="cat-head"><h2>${esc(s.title)}</h2><span class="n">${n} device${n>1?"s":""}</span><p>${esc(s.blurb)}</p></div>${body}</section>`;
+  }
+  const cur = document.querySelector('.chip[aria-selected="true"]');
+  if (cur) { const s = $("#chips"); const l = cur.offsetLeft - s.offsetLeft; if (l < s.scrollLeft || l + cur.offsetWidth > s.scrollLeft + s.clientWidth) s.scrollLeft = l - 16; }
+  $("#hint").textContent = searching ? `Showing ${total} match${total===1?"":"es"} across all categories. Pick a tab to clear the search.` : "Showing one category at a time. Search to look across all of them.";
+  $("#out").innerHTML = html || `<div class="empty">No devices match “${esc(q)}”. Try a brand (Marshall), a pedal (Tube Screamer) or a use (ambient).</div>`;
+}
+for (const d of all) d.hay = [d.name, d.basedOn, d.desc, d.prev, d.plugin].join(" ").toLowerCase();
+["#q"].forEach(s => $(s).addEventListener("input", render));
+["#onlyNew","#showPlug","#showCap"].forEach(s => $(s).addEventListener("change", render));
+render();
+</script>

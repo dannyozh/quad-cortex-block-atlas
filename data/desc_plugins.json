@@ -1,0 +1,602 @@
+{
+ "plugin|Archetype: Plini X|Plini Comp|Compressor": {
+  "basedOn": "",
+  "desc": "Virtual-analog bus compressor whose threshold is linked to makeup gain, so level stays constant while you dial in squash."
+ },
+ "plugin|Archetype: Plini X|Plini Octaver|Pitch": {
+  "basedOn": "",
+  "desc": "Simple blendable octave up and octave down for thickening leads and riffs."
+ },
+ "plugin|Archetype: Plini X|Plini Drive|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Boost/overdrive for tightening rhythms and saturating leads, with a fuzz switch for extra harmonic grit."
+ },
+ "plugin|Archetype: Plini X|Plini Pre Delay (M)|Delay": {
+  "basedOn": "",
+  "desc": "Pre-amp delay pedal for textures, feedback play and unconventional delay effects."
+ },
+ "plugin|Archetype: Plini X|Plini Clean|Guitar amps": {
+  "basedOn": "",
+  "desc": "Transparent, punchy boutique-style clean with huge headroom — Plini's signature clean platform."
+ },
+ "plugin|Archetype: Plini X|Plini Crunch|Guitar amps": {
+  "basedOn": "",
+  "desc": "Midpoint between clean and high gain; crisp new-wave British crunch with a twist."
+ },
+ "plugin|Archetype: Plini X|Plini Lead|Guitar amps": {
+  "basedOn": "",
+  "desc": "Crunch amp plus an extra triode stage — for leads and hot-rodded riffs; great with extended-range guitars."
+ },
+ "plugin|Archetype: Plini X|Plini Cab (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Plini X cab-sim with hundreds of Neural DSP IRs and six movable virtual mics; doubles as an IR loader."
+ },
+ "plugin|Archetype: Plini X|Plini Chorus|Modulation": {
+  "basedOn": "",
+  "desc": "Deep modulation with a vintage 80s-swirl mode and a modern spatial mode."
+ },
+ "plugin|Archetype: Plini X|Plini Delay (ST)|Delay": {
+  "basedOn": "",
+  "desc": "Stereo digital delay with tape saturation and tape modulation for warm, imperfect repeats."
+ },
+ "plugin|Archetype: Plini X|Plini Reverb|Reverb": {
+  "basedOn": "",
+  "desc": "Multidimensional reverb that moves between wide and narrow spaces — big ambient leads."
+ },
+ "plugin|Archetype: Gojira X|Gojira WOW|Pitch": {
+  "basedOn": "",
+  "desc": "MIDI-programmable pitch shifter with three modes for octave jumps and Whammy-style pitch sweeps."
+ },
+ "plugin|Archetype: Gojira X|Gojira OCT|Pitch": {
+  "basedOn": "",
+  "desc": "Polyphonic octaver adding independent −1 and −2 octaves for crushing riffs."
+ },
+ "plugin|Archetype: Gojira X|Gojira OD|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Overdrive pedal for tightening and pushing the amps."
+ },
+ "plugin|Archetype: Gojira X|Gojira DRT|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Distortion pedal for extra saturation and grind."
+ },
+ "plugin|Archetype: Gojira X|Gojira PHSR|Modulation": {
+  "basedOn": "",
+  "desc": "Phaser for swirling movement on cleans and leads."
+ },
+ "plugin|Archetype: Gojira X|Gojira CHR|Modulation": {
+  "basedOn": "",
+  "desc": "Chorus for width and shimmer."
+ },
+ "plugin|Archetype: Gojira X|Gojira CLN|Guitar amps": {
+  "basedOn": "",
+  "desc": "Model of a vintage tube amp — pristine cleans, or natural tube saturation when cranked."
+ },
+ "plugin|Archetype: Gojira X|Gojira RST|Guitar amps": {
+  "basedOn": "",
+  "desc": "'Rust' — a crunch amp with an enormous gain sweep that goes well into heavy territory."
+ },
+ "plugin|Archetype: Gojira X|Gojira HOT|Guitar amps": {
+  "basedOn": "",
+  "desc": "The core Gojira sound: clear, defined ultra-high-gain for rhythms and soaring leads."
+ },
+ "plugin|Archetype: Gojira X|Gojira Cab 1 (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Gojira X cab-sim (Nolly-made IRs, six virtual mics) matched to CLN; also an IR loader."
+ },
+ "plugin|Archetype: Gojira X|Gojira Cab 2 (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Gojira X cab-sim matched to RST; movable mics, also an IR loader."
+ },
+ "plugin|Archetype: Gojira X|Gojira Cab 3 (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Gojira X cab-sim matched to HOT; movable mics, also an IR loader."
+ },
+ "plugin|Archetype: Gojira X|Gojira DLY (ST)|Delay": {
+  "basedOn": "",
+  "desc": "Haunting stereo delay with tape saturation."
+ },
+ "plugin|Archetype: Gojira X|Gojira REV|Reverb": {
+  "basedOn": "",
+  "desc": "Chasmic, dark reverb."
+ },
+ "plugin|Archetype: Gojira X|Gojira REV Shimmer|Reverb": {
+  "basedOn": "",
+  "desc": "The Gojira reverb with its dark-voiced shimmer engaged."
+ },
+ "plugin|Soldano SLO-100 X|SLO-100 Compressor|Compressor": {
+  "basedOn": "",
+  "desc": "Compressor designed to complement the SLO-100 — evens out dynamics before the amp."
+ },
+ "plugin|Soldano SLO-100 X|SLO-100 Overdrive-1|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Boost (OD1) to tighten and push the SLO."
+ },
+ "plugin|Soldano SLO-100 X|SLO-100 Overdrive-2|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Overdrive (OD2) for extra drive and saturation in front of the amp."
+ },
+ "plugin|Soldano SLO-100 X|SLO-100 Chorus|Modulation": {
+  "basedOn": "",
+  "desc": "Vintage-style chorus."
+ },
+ "plugin|Soldano SLO-100 X|Soldano® SLO-100®|Guitar amps": {
+  "basedOn": "Soldano® SLO-100®",
+  "desc": "Neural DSP's standalone model of the amp that defined American high gain: crystalline Normal (with Bright/Crunch) and Overdrive channels."
+ },
+ "plugin|Soldano SLO-100 X|SLO-100 Cab (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "SLO-100 X cab-sim with Nolly-made IRs and six movable mics; also an IR loader."
+ },
+ "plugin|Soldano SLO-100 X|SLO-100 Delay|Delay": {
+  "basedOn": "",
+  "desc": "Simplified delay for leads and space."
+ },
+ "plugin|Soldano SLO-100 X|SLO-100 Reverb|Reverb": {
+  "basedOn": "",
+  "desc": "Simplified reverb to finish the tone."
+ },
+ "plugin|Fortin Nameless Suite X|Nameless Zuul|Utility": {
+  "basedOn": "Fortin® Zuul",
+  "desc": "Studio-grade, transparent noise gate — essential for tight, silent high-gain stops."
+ },
+ "plugin|Fortin Nameless Suite X|Nameless Hexdrive|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "High-output overdrive with extra headroom and irregular clipping — part boost, part overdrive."
+ },
+ "plugin|Fortin Nameless Suite X|Nameless Grind|Guitar overdrive": {
+  "basedOn": "Fortin® Grind",
+  "desc": "Adds gain plus clarity and articulation so every note stays defined under heavy distortion."
+ },
+ "plugin|Fortin Nameless Suite X|Fortin® Nameless|Guitar amps": {
+  "basedOn": "Fortin® Nameless",
+  "desc": "Single-channel 50 W all-tube extreme-metal amp — brutal, tight and aggressive."
+ },
+ "plugin|Fortin Nameless Suite X|Nameless Cab (M) & (S)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Nameless Suite cab-sim with Neural DSP IRs and six movable mics; also an IR loader."
+ },
+ "plugin|Fortin Nameless Suite X|Nameless Delay|Delay": {
+  "basedOn": "",
+  "desc": "Delay for lead tones and soundscapes."
+ },
+ "plugin|Fortin Nameless Suite X|Nameless Reverb|Reverb": {
+  "basedOn": "",
+  "desc": "Reverb to add depth to leads and ambience."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong Wah|Wah": {
+  "basedOn": "",
+  "desc": "Wah with Cory's exact sweep; learns your expression pedal's range, or runs as an auto-wah."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong The Postal Service|Filter": {
+  "basedOn": "",
+  "desc": "A complex envelope filter with simple controls — quacky, funky auto-filter."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong The 4th Position Compressor|Compressor": {
+  "basedOn": "",
+  "desc": "Cory's signature compressor — the squish and punch behind his clean funk rhythm."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong The Tuber|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "A modded classic booster loved by tube-amp fans."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong The Big Rig Overdrive|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Heavy, powerful overdrive pushing saturation to the edge of fuzz."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong D.I. Funk Console|Guitar amps": {
+  "basedOn": "",
+  "desc": "Based on an analog channel strip — tube saturation, compressor, EQ and filters for the classic DI 'bubble' funk tone; works without a cab."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong The Clean Machine|Guitar amps": {
+  "basedOn": "",
+  "desc": "An amalgam of top clean amps customised for Cory — crisp cleans with a warm top end."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong The Amp Snob|Guitar amps": {
+  "basedOn": "",
+  "desc": "Model of one of the rarest amps in history — clear cleans to iconic edge-of-breakup; great with boosters."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong Cab 1 (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Cory Wong X cab-sim (Nolly IRs, six mics, room send); also an IR loader."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong Cab 2 (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Cory Wong X cab-sim, second cab; movable mics, IR loader."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong Cab 3 (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Cory Wong X cab-sim, third cab; movable mics, IR loader."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong The 80s|Modulation": {
+  "basedOn": "",
+  "desc": "Lush, shimmering vintage chorus with 80s flair."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong Delay-y-y|Delay": {
+  "basedOn": "",
+  "desc": "BBD-style analog delay engine — warm, soft repeats."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong The Wash|Reverb": {
+  "basedOn": "",
+  "desc": "Reverb stompbox for ambience."
+ },
+ "plugin|Archetype: Cory Wong X|Cory Wong The Wash Shimmer|Reverb": {
+  "basedOn": "",
+  "desc": "The Wash with its shimmer switch on — dreamy, pitched reverb tails."
+ },
+ "plugin|Archetype: Nolly X|Nolly Compressor|Compressor": {
+  "basedOn": "",
+  "desc": "Solid-state compressor for conditioning the signal before the amps."
+ },
+ "plugin|Archetype: Nolly X|Nolly Overdrive-1|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Overdrive/booster (with bright switch) for tightening high-gain."
+ },
+ "plugin|Archetype: Nolly X|Nolly Delay-1 (M)|Delay": {
+  "basedOn": "",
+  "desc": "Pre-amp delay for texture before the amps."
+ },
+ "plugin|Archetype: Nolly X|Nolly Overdrive-2|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Second overdrive/booster flavour for tone sculpting."
+ },
+ "plugin|Archetype: Nolly X|Nolly Clean|Guitar amps": {
+  "basedOn": "",
+  "desc": "Model of Nolly's own modded amp — crystal-clear, full cleans for dynamic playing."
+ },
+ "plugin|Archetype: Nolly X|Nolly Crunch|Guitar amps": {
+  "basedOn": "",
+  "desc": "Nolly's modded amp: classic British crunch with a twist, clear attack and rich harmonics."
+ },
+ "plugin|Archetype: Nolly X|Nolly Rhythm|Guitar amps": {
+  "basedOn": "",
+  "desc": "Nolly's modded amp: full, massive gain for rhythms and leads."
+ },
+ "plugin|Archetype: Nolly X|Nolly Lead|Guitar amps": {
+  "basedOn": "",
+  "desc": "Nolly's modded amp: a different high-gain flavour for heavy rhythms and leads."
+ },
+ "plugin|Archetype: Nolly X|Nolly Cab 1 (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Nolly X cab-sim with Nolly-captured IRs; also an IR loader."
+ },
+ "plugin|Archetype: Nolly X|Nolly Cab 2 (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Nolly X cab-sim, second cab."
+ },
+ "plugin|Archetype: Nolly X|Nolly Cab 3 (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Nolly X cab-sim, third cab."
+ },
+ "plugin|Archetype: Nolly X|Nolly Cab 4 (M) & (ST)|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Nolly X cab-sim, fourth cab."
+ },
+ "plugin|Archetype: Nolly X|Nolly Graphic-9|EQ": {
+  "basedOn": "",
+  "desc": "9-band graphic EQ with a 'Nolly's Mod' mode using custom Q for creative boosts."
+ },
+ "plugin|Archetype: Nolly X|Nolly Delay-2|Delay": {
+  "basedOn": "",
+  "desc": "Dreamy post-amp delay for leads and ambience."
+ },
+ "plugin|Archetype: Nolly X|Nolly Reverb|Reverb": {
+  "basedOn": "",
+  "desc": "Multi-dimensional reverb for depth and lush ambience."
+ },
+ "plugin|Parallax X|Parallax|Bass overdrive": {
+  "basedOn": "",
+  "desc": "Multiband bass distortion: compresses the lows while mids and highs are distorted separately — clarity plus huge low end."
+ },
+ "plugin|Parallax X|Parallax Cab (M) & (ST)|Bass cabinets": {
+  "basedOn": "",
+  "desc": "Parallax cab-sim that only affects the distorted mid/high bands, keeping lows clean."
+ },
+ "plugin|Archetype: John Mayer X|Justa Boost|Guitar overdrive": {
+  "basedOn": "Keeley Katana",
+  "desc": "Always-on front-of-chain boost (clean or slightly driven) that adds body and makes the amps respond more dynamically."
+ },
+ "plugin|Archetype: John Mayer X|Antelope Filter|Filter": {
+  "basedOn": "Electro-Harmonix Q-Tron+",
+  "desc": "Expressive envelope filter — heard on 'I Don't Trust Myself (With Loving You)'."
+ },
+ "plugin|Archetype: John Mayer X|Halfman OD|Guitar overdrive": {
+  "basedOn": "Klon Centaur (Mayer's own unit)",
+  "desc": "Recreates one of the most revered overdrive pedals ever made — harmonic richness and sustain with clarity."
+ },
+ "plugin|Archetype: John Mayer X|Tealbreaker|Guitar overdrive": {
+  "basedOn": "Ibanez TS-10 (TS mode) + Marshall Bluesbreaker MK1 (BB mode)",
+  "desc": "Two overdrive voices in one pedal; low-gain open drive plus a more mid-forward voice."
+ },
+ "plugin|Archetype: John Mayer X|Millipede Delay|Delay": {
+  "basedOn": "Way Huge Aqua-Puss",
+  "desc": "Based on a rare late-90s analog BBD delay — John's 'secret weapon' very short, lo-fi slapback."
+ },
+ "plugin|Archetype: John Mayer X|Harmonic Tremolo|Modulation": {
+  "basedOn": "Victoria Reverberato (harmonic tremolo circuit)",
+  "desc": "All-tube harmonic tremolo from the 'Gravity Tank' (Neural DSP's hybrid of Mayer's trem and spring reverb), modded for slower rates."
+ },
+ "plugin|Archetype: John Mayer X|Spring Reverb|Reverb": {
+  "basedOn": "Likely Strymon Flint (reverb section); Neural DSP only says '60s American standalone reverb",
+  "desc": "Two-spring tank reverb from the 'Gravity Tank' hybrid; warm, dimensional ambience."
+ },
+ "plugin|Archetype: John Mayer X|Smooth Operator|Guitar amps": {
+  "basedOn": "John Mayer's 1964 Fender Vibroverb (vibrato channel)",
+  "desc": "The foundation of John's clean — a 15-inch-speaker vintage American blues amp with a piano-like low end and musical breakup."
+ },
+ "plugin|Archetype: John Mayer X|Headroom Hero|Guitar amps": {
+  "basedOn": "John Mayer's Dumble Steel String Singer #002",
+  "desc": "Boutique amp with immense clean headroom that refuses to break up — John's ultimate clean reference."
+ },
+ "plugin|Archetype: John Mayer X|Signature 83|Guitar amps": {
+  "basedOn": "Two-Rock John Mayer Signature prototype #83",
+  "desc": "Early one-of-one prototype of John's boutique signature amp — creamy mids for expressive leads."
+ },
+ "plugin|Archetype: John Mayer X|Three-In-One|Guitar amps": {
+  "basedOn": "'64 Fender Vibroverb + Dumble Steel String Singer #002 + Two-Rock Signature #83, in parallel",
+  "desc": "John's actual rig: all three amps running in parallel at his exact settings, cabs and mics included."
+ },
+ "plugin|Archetype: John Mayer X|Smooth Operator Cab|Guitar cabinets": {
+  "basedOn": "Fender Vibroverb 1×15 with a CTS 15\" speaker",
+  "desc": "Cab IRs recorded in John's LA studio for the Smooth Operator; 11 movable mics, room send, IR loader."
+ },
+ "plugin|Archetype: John Mayer X|Headroom Hero Cab|Guitar cabinets": {
+  "basedOn": "Mayer's original Dumble cab with a vintage Electro-Voice EVM12L",
+  "desc": "High-power open-back cab IRs for the Headroom Hero, from John's studio."
+ },
+ "plugin|Archetype: John Mayer X|Signature 83 Cab|Guitar cabinets": {
+  "basedOn": "2×12 with Celestion G12M Greenbacks",
+  "desc": "Focused 1×12 cab IRs for the Signature 83, from John's studio."
+ },
+ "plugin|Archetype: John Mayer X|Compressor|Compressor": {
+  "basedOn": "Empirical Labs Distressor, set to Mayer's settings",
+  "desc": "Studio compressor set to John's settings — quietly controls amp peaks while preserving touch."
+ },
+ "plugin|Archetype: John Mayer X|Dream Delay (ST)|Delay": {
+  "basedOn": "Providence DLY-4 Chrono Delay (per reviews)",
+  "desc": "Stereo digital delay inspired by 1980s rack units, with a Hardness control that darkens repeats like tape."
+ },
+ "plugin|Archetype: John Mayer X|Studio Verb Hall|Reverb": {
+  "basedOn": "Likely Valhalla VintageVerb (Concert Hall, 1970s mode)",
+  "desc": "Lush hall inspired by 1970s early digital reverbs, deliberately downsampled for grain."
+ },
+ "plugin|Archetype: John Mayer X|Studio Verb Plate|Reverb": {
+  "basedOn": "Likely Valhalla VintageVerb (Plate, 1980s mode)",
+  "desc": "Digital plate inspired by classic 80s studio units — silky highs and a dense tail."
+ },
+ "plugin|Archetype: Petrucci X|Wah|Wah": {
+  "basedOn": "",
+  "desc": "Recreates John Petrucci's iconic wah tone."
+ },
+ "plugin|Archetype: Petrucci X|Compressor|Compressor": {
+  "basedOn": "",
+  "desc": "Dynamic control to condition the signal before the amps."
+ },
+ "plugin|Archetype: Petrucci X|Overdrive|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Overdrive to tighten and push the amps."
+ },
+ "plugin|Archetype: Petrucci X|Phaser|Modulation": {
+  "basedOn": "",
+  "desc": "Phaser/vibe for swirling movement."
+ },
+ "plugin|Archetype: Petrucci X|Chorus 1|Modulation": {
+  "basedOn": "",
+  "desc": "Pre-amp chorus pedal."
+ },
+ "plugin|Archetype: Petrucci X|Flanger|Modulation": {
+  "basedOn": "",
+  "desc": "Flanger for jet-sweep textures."
+ },
+ "plugin|Archetype: Petrucci X|Piezo|Guitar amps": {
+  "basedOn": "",
+  "desc": "Amp designed for piezo pickups, emulating acoustic body resonance; also works with single coils."
+ },
+ "plugin|Archetype: Petrucci X|Clean|Guitar amps": {
+  "basedOn": "",
+  "desc": "Sonorous, rich clean with a bright switch."
+ },
+ "plugin|Archetype: Petrucci X|Rhythm|Guitar amps": {
+  "basedOn": "",
+  "desc": "Thunderous rhythm amp; Tight, Bite and Bass controls shape attack or growl."
+ },
+ "plugin|Archetype: Petrucci X|Lead|Guitar amps": {
+  "basedOn": "",
+  "desc": "Huge sustain and deep harmonics for Petrucci-style leads."
+ },
+ "plugin|Archetype: Petrucci X|Cab|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Petrucci X cab-sim with IRs by Jimmy T at DTHQ, six movable mics; also an IR loader."
+ },
+ "plugin|Archetype: Petrucci X|Volume|Utility": {
+  "basedOn": "",
+  "desc": "Volume pedal for swells and level control."
+ },
+ "plugin|Archetype: Petrucci X|Chorus 2|Modulation": {
+  "basedOn": "",
+  "desc": "Rack-style chorus with vintage and spatial modes."
+ },
+ "plugin|Archetype: Petrucci X|Delay|Delay": {
+  "basedOn": "",
+  "desc": "Rack delay with cross-feed, 'crystal' sparkle and tape saturation."
+ },
+ "plugin|Archetype: Petrucci X|Reverb|Reverb": {
+  "basedOn": "",
+  "desc": "Dark, foreboding reverb."
+ },
+ "plugin|Archetype: Petrucci X|Reverb Shimmer|Reverb": {
+  "basedOn": "",
+  "desc": "The Petrucci reverb with its celestial shimmer."
+ },
+ "plugin|Archetype: Misha Mansoor X|Laser|Pitch": {
+  "basedOn": "",
+  "desc": "Turns your signal into 'laser' sounds via ring-mod and pitch-shift algorithms; expression or dynamics-controlled."
+ },
+ "plugin|Archetype: Misha Mansoor X|Horizon Devices® Compressor™|Compressor": {
+  "basedOn": "Horizon Devices® Compressor",
+  "desc": "Faithful recreation of Misha's always-on compressor — tightens and adds push to drive an amp."
+ },
+ "plugin|Archetype: Misha Mansoor X|Tape Echo|Delay": {
+  "basedOn": "",
+  "desc": "Vintage tape-echo placed before the amp — slapbacks, spacious repeats or gritty lo-fi texture."
+ },
+ "plugin|Archetype: Misha Mansoor X|Dual Octaver|Pitch": {
+  "basedOn": "",
+  "desc": "Octave down, up or both with precise tracking — from subtle thickness to synth-like layers."
+ },
+ "plugin|Archetype: Misha Mansoor X|Horizon Devices® Precision Drive™|Guitar overdrive": {
+  "basedOn": "Horizon Devices® Precision Drive",
+  "desc": "Faithful recreation of Misha's modern-metal benchmark overdrive — tight, clear, punchy."
+ },
+ "plugin|Archetype: Misha Mansoor X|Chaos|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Misha's custom one-knob distortion, modeled on a DIY pedal inspired by the Swedish HM-2 'chainsaw' sound."
+ },
+ "plugin|Archetype: Misha Mansoor X|Clean Amp|Guitar amps": {
+  "basedOn": "",
+  "desc": "Inspired by a modern American classic — big-headroom cleans that break up into rich crunch."
+ },
+ "plugin|Archetype: Misha Mansoor X|Rhythm Amp|Guitar amps": {
+  "basedOn": "",
+  "desc": "A blend of two legendary high-gain amps for tight, percussive modern-metal riffing."
+ },
+ "plugin|Archetype: Misha Mansoor X|Lead Amp|Guitar amps": {
+  "basedOn": "",
+  "desc": "Inspired by custom-modded British classics — extra gain stage for singing, sustaining solos."
+ },
+ "plugin|Archetype: Misha Mansoor X|Cab 1|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "1×12 with an Eminence GA speaker (Clean cab); movable mics, IR loader."
+ },
+ "plugin|Archetype: Misha Mansoor X|Cab 2|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "4×12 with Vintage 30s (Rhythm cab) — crushing lows, aggressive mids."
+ },
+ "plugin|Archetype: Misha Mansoor X|Cab 3|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "4×12 with G12M Greenbacks (Lead cab) — midrange punch and smooth top."
+ },
+ "plugin|Archetype: Misha Mansoor X|Modulator|Modulation": {
+  "basedOn": "",
+  "desc": "Chorus/flanger hybrid with expression or semi-random 'virtual foot' LFO and super-wide stereo."
+ },
+ "plugin|Archetype: Misha Mansoor X|Stereo Delay|Delay": {
+  "basedOn": "",
+  "desc": "Delay inspired by an iconic studio unit, with ducking, tempo sync, filters and modulation."
+ },
+ "plugin|Archetype: Misha Mansoor X|Reverb|Reverb": {
+  "basedOn": "",
+  "desc": "Recreation of Misha's favourite boutique vintage-digital reverb."
+ },
+ "plugin|Archetype: Misha Mansoor X|Reverb Shimmer|Reverb": {
+  "basedOn": "",
+  "desc": "The same reverb in Shimmer mode — pitched harmonics on the tail."
+ },
+ "plugin|Archetype: Rabea X|Twin Blade Dual Compressor|Compressor": {
+  "basedOn": "",
+  "desc": "Rabea's dual compressor for conditioning the signal before the amps."
+ },
+ "plugin|Archetype: Rabea X|Chaos Bed Octaver|Pitch": {
+  "basedOn": "",
+  "desc": "Octaver with vintage/modern algorithm switch."
+ },
+ "plugin|Archetype: Rabea X|Colossus Fuzz|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Fuzz with vintage/modern switch — colossal distortion."
+ },
+ "plugin|Archetype: Rabea X|Paragon Overdrive|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Overdrive with vintage/modern switch — chimey blues to pushed rock."
+ },
+ "plugin|Archetype: Rabea X|Clean Amp|Guitar amps": {
+  "basedOn": "",
+  "desc": "Traditional Cali (Mesa-style) cleans with added modern chime."
+ },
+ "plugin|Archetype: Rabea X|Crunch Amp|Guitar amps": {
+  "basedOn": "",
+  "desc": "Rabea's crunch amp — vintage-leaning drive."
+ },
+ "plugin|Archetype: Rabea X|Lead Amp|Guitar amps": {
+  "basedOn": "",
+  "desc": "Malleable modern high-gain amp — tight or saggy chugs; adds a V30 speaker option."
+ },
+ "plugin|Archetype: Rabea X|Cab 1|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Rabea X cab-sim for the Clean amp; movable mics, IR loader."
+ },
+ "plugin|Archetype: Rabea X|Cab 2|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Rabea X cab-sim for the Crunch amp."
+ },
+ "plugin|Archetype: Rabea X|Cab 3|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Rabea X cab-sim for the Lead amp."
+ },
+ "plugin|Archetype: Rabea X|Atlas Delay|Delay": {
+  "basedOn": "",
+  "desc": "Analog-style delay with Icicles and Cross-feed controls for dreamy repeats."
+ },
+ "plugin|Archetype: Rabea X|Aeons Reverb|Reverb": {
+  "basedOn": "",
+  "desc": "Vast reverb with Freeze — suspend a chord as a pad and play over it."
+ },
+ "plugin|Archetype: Tim Henson X|Boost|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Transparent clean boost with bass/treble EQ to push the amp into breakup."
+ },
+ "plugin|Archetype: Tim Henson X|Compressor|Compressor": {
+  "basedOn": "",
+  "desc": "Tightens dynamics and adds sustain; slow/fast attack switch."
+ },
+ "plugin|Archetype: Tim Henson X|Overdrive|Guitar overdrive": {
+  "basedOn": "",
+  "desc": "Adds warmth, grit and saturation."
+ },
+ "plugin|Archetype: Tim Henson X|Acoustic Amp|Guitar amps": {
+  "basedOn": "",
+  "desc": "Recreated from Tim's studio chain — bright, sparkly acoustic/piezo tones, with a blend to fake piezo sparkle."
+ },
+ "plugin|Archetype: Tim Henson X|Crunch Amp Ch1|Guitar amps": {
+  "basedOn": "",
+  "desc": "Tim's crunch amp, channel 1."
+ },
+ "plugin|Archetype: Tim Henson X|Crunch Amp Ch2|Guitar amps": {
+  "basedOn": "",
+  "desc": "Tim's crunch amp, channel 2 — more gain."
+ },
+ "plugin|Archetype: Tim Henson X|Lead Amp|Guitar amps": {
+  "basedOn": "",
+  "desc": "Tim's lead amp for saturated solos and heavy parts."
+ },
+ "plugin|Archetype: Tim Henson X|Cab 1|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Tim Henson X cab-sim (Nolly IRs, six mics); also an IR loader."
+ },
+ "plugin|Archetype: Tim Henson X|Cab 2|Guitar cabinets": {
+  "basedOn": "",
+  "desc": "Tim Henson X cab-sim, second cab."
+ },
+ "plugin|Archetype: Tim Henson X|Chorus|Modulation": {
+  "basedOn": "",
+  "desc": "Lush, swirly chorus with minimal tweaking."
+ },
+ "plugin|Archetype: Tim Henson X|Diffusion Delay|Delay": {
+  "basedOn": "",
+  "desc": "Delay in 'diffusion' type — smeared, reverb-like repeats."
+ },
+ "plugin|Archetype: Tim Henson X|Vintage Digital Delay|Delay": {
+  "basedOn": "",
+  "desc": "Delay in vintage-digital type — gritty 80s rack-style repeats."
+ },
+ "plugin|Archetype: Tim Henson X|Modern Delay|Delay": {
+  "basedOn": "",
+  "desc": "Delay in modern type — clean, precise repeats."
+ },
+ "plugin|Archetype: Tim Henson X|Reverb|Reverb": {
+  "basedOn": "",
+  "desc": "Reverb from subtle rooms to huge spaces."
+ },
+ "plugin|Archetype: Tim Henson X|Reverb Shimmer|Reverb": {
+  "basedOn": "",
+  "desc": "Angelic shimmer reverb."
+ }
+}

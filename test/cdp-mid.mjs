@@ -1,0 +1,23 @@
+import { spawn } from "node:child_process";
+import { writeFileSync, mkdtempSync } from "node:fs";
+const CH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+const prof=mkdtempSync(process.cwd()+"/prof-");
+const p=spawn(CH,["--headless=new","--remote-debugging-port=9333","--user-data-dir="+prof,"--no-first-run","--allow-file-access-from-files","about:blank"],{stdio:"ignore"});
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+let targets; for(let i=0;i<50;i++){try{targets=await (await fetch("http://127.0.0.1:9333/json")).json();break}catch{await sleep(200)}}
+const ws=new WebSocket(targets.find(t=>t.type==="page").webSocketDebuggerUrl);
+await new Promise(r=>ws.onopen=r);
+let id=0; const pend={}, errs=[];
+ws.onmessage=e=>{const m=JSON.parse(e.data); if(m.id&&pend[m.id]){pend[m.id](m);delete pend[m.id]} if(m.method==="Runtime.exceptionThrown")errs.push(m.params.exceptionDetails.exception?.description); if(m.method==="Runtime.consoleAPICalled"&&m.params.type==="error")errs.push(JSON.stringify(m.params.args))};
+const send=(method,params={})=>new Promise(r=>{const i=++id;pend[i]=r;ws.send(JSON.stringify({id:i,method,params}))});
+const ev=async x=>{const r=await send("Runtime.evaluate",{expression:x,awaitPromise:true,returnByValue:true}); return r.result.exceptionDetails?("ERR "+r.result.exceptionDetails.exception?.description):r.result.result.value};
+const shot=async(n,clip)=>{const r=await send("Page.captureScreenshot",{format:"png",clip:clip?{...clip,scale:1}:undefined});writeFileSync("shots/"+n+".png",Buffer.from(r.result.data,"base64"))};
+const scheme=v=>send("Emulation.setEmulatedMedia",{features:[{name:"prefers-color-scheme",value:v}]});
+await send("Runtime.enable"); await send("Page.enable");
+await send("Emulation.setDeviceMetricsOverride",{width:1280,height:800,deviceScaleFactor:1,mobile:false});
+const url="file://"+process.cwd()+"/index.html";
+const st=`JSON.stringify({attr:document.documentElement.dataset.theme??null,checked:theme.getAttribute("aria-checked"),bg:getComputedStyle(document.body).backgroundColor,ls:localStorage.getItem("qc-theme")})`;
+const load=async()=>{await send("Page.navigate",{url});await sleep(1200)};
+await scheme("light"); await load(); await ev(`localStorage.clear()`); await load();
+await ev(`theme.click()`); await sleep(190); await shot("mid-reveal",{x:0,y:0,width:1280,height:800});
+ws.close(); p.kill(); process.exit(0);
