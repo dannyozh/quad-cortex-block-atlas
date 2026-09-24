@@ -11,7 +11,19 @@ All product names are trademarks of their owners. Neural DSP uses them only to i
 
 ## How it's built
 
-The page is a single self-contained HTML file with no framework and no bundler. `index.html` is generated, so edit `src/template.html` and rebuild:
+The page is a single self-contained HTML file with no framework and no bundler.
+
+Three concerns stay in separate files while editing, and `build.py` is the only place they meet:
+
+| Concern | Lives in | Who changes it |
+|---|---|---|
+| Facts (names, "based on", version) | `data/next.json` | Neural DSP, by publishing an update |
+| Commentary ("what it's for") | `data/desc_*.json` | us, by writing |
+| Look and behavior | `src/template.html` | front-end work |
+
+The build pastes the data into the template as a JavaScript object, and the browser draws the rows from it. That keeps search and filtering instant, with nothing to fetch.
+
+`index.html` is generated, so edit `src/template.html` or `data/` and rebuild:
 
 ```sh
 python3 build.py   # writes index.html (and build/qc-block-atlas.html, the bare fragment)
